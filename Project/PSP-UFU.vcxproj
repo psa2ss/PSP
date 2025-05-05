@@ -23,6 +23,7 @@
     <ProjectGuid>{10B333DB-E093-46BA-BFE2-18AA8005AD88}</ProjectGuid>
     <RootNamespace>PSPUFU</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>PSP-KUST</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

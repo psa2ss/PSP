@@ -308,7 +308,7 @@ public:
     wxStaticText* GetStaticTextHome() { return m_staticTextHome; }
     wxHyperlinkCtrl* GetHyperLinkPSP() { return m_hyperLinkPSP; }
     wxButton* GetButtonOK() { return m_buttonOK; }
-    AboutFormBase(wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("About PSP-UFU"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize(-1,-1), long style = wxDEFAULT_DIALOG_STYLE);
+    AboutFormBase(wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("¹ØÓÚ PSP-KUST"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize(-1,-1), long style = wxDEFAULT_DIALOG_STYLE);
     virtual ~AboutFormBase();
 };
 

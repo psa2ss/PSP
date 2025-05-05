@@ -180,7 +180,7 @@ public:
 		return true;
 	}
 
-	void LoadCatalogs(wxLocale* locale, PropertiesData* propertiesData)
+	void LoadCatalogs(wxLocale* locale, PropertiesData* propertiesData) // 多语言路径解析
 	{
 		// Load language catalogs according the propertiesData attribute.
 		if (!locale->Init(propertiesData->GetGeneralPropertiesData().language, wxLOCALE_DONT_LOAD_DEFAULT)) {
@@ -191,6 +191,7 @@ public:
 
 		wxFileName fn(wxStandardPaths::Get().GetExecutablePath());
 		wxString langPath = fn.GetPath() + wxFileName::DirName("\\..\\data\\lang", wxPATH_WIN).GetPath();
+		// 动态加载翻译文件
 		locale->AddCatalogLookupPathPrefix(langPath);
 		// pt_BR
 		if (propertiesData->GetGeneralPropertiesData().language == wxLANGUAGE_PORTUGUESE_BRAZILIAN) {
