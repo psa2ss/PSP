@@ -67,7 +67,7 @@
  */
 
  // Define the MainApp
-//#define wxUSE_PRIVATE_FONTS 1
+
 class MainApp : public wxApp
 {
 public:
@@ -116,6 +116,10 @@ public:
 					else if (tagValue == "en" || tagValue == "en-us" || tagValue == "en-uk") {
 						data.language = wxLANGUAGE_ENGLISH;
 					}
+					else if (tagValue == "cn" || tagValue == "zh-cn") {
+						data.language = wxLANGUAGE_CHINESE_SIMPLIFIED;
+					}			
+				
 				}
 				if (tag == "theme") {
 					if (tagValue == "light") {
@@ -192,6 +196,14 @@ public:
 		if (propertiesData->GetGeneralPropertiesData().language == wxLANGUAGE_PORTUGUESE_BRAZILIAN) {
 			if (!locale->AddCatalog(wxT("pt_BR"))) {
 				wxMessageDialog msgDialog(nullptr, _("Fail to load brazilian portuguese language catalog."), _("Error"),
+					wxOK | wxCENTRE | wxICON_ERROR);
+				msgDialog.ShowModal();
+			}
+		}
+		//cn
+		else if (propertiesData->GetGeneralPropertiesData().language == wxLANGUAGE_CHINESE_SIMPLIFIED) {
+			if (!locale->AddCatalog(wxT("zh_CN"))) {
+				wxMessageDialog msgDialog(nullptr, _("Fail to load chinese language catalog."), _("Error"),
 					wxOK | wxCENTRE | wxICON_ERROR);
 				msgDialog.ShowModal();
 			}

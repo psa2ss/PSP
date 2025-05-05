@@ -409,6 +409,10 @@
   <ItemGroup>
     <ResourceCompile Include="win_resources.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="data\lang\zh_CN\zh_CN.mo" />
+    <None Include="data\lang\zh_CN\zh_CN.po" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
