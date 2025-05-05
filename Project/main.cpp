@@ -2,6 +2,7 @@
 #pragma diag_suppress 102
 #endif
 
+
 #include <wx/app.h>
 #include <wx/cmdline.h>
 #include <wx/event.h>
@@ -66,6 +67,7 @@
  */
 
  // Define the MainApp
+//#define wxUSE_PRIVATE_FONTS 1
 class MainApp : public wxApp
 {
 public:
@@ -205,13 +207,14 @@ public:
 		// Load fonts
 		wxFileName fn(wxStandardPaths::Get().GetExecutablePath());
 		wxString fontsPath = fn.GetPath() + wxFileName::DirName("\\..\\data\\fonts", wxPATH_WIN).GetPath();
-		bool loadFont = wxFont::AddPrivateFont(fontsPath + wxFileName::GetPathSeparator() + "cmunrm.ttf");
+		
+		/*bool loadFont = wxFont::AddPrivateFont(fontsPath + wxFileName::GetPathSeparator() + "cmunrm.ttf");
 		if (loadFont) loadFont = wxFont::AddPrivateFont(fontsPath + wxFileName::GetPathSeparator() + "cmunbx.ttf");
 		if (!loadFont) {
 			wxMessageDialog msgDialog(nullptr, _("Fail to load local font."), _("Error"),
 				wxOK | wxCENTRE | wxICON_ERROR);
 			msgDialog.ShowModal();
-		}
+		}*/
 
 		PropertiesData* propertiesData = new PropertiesData();
 		LoadInitFile(propertiesData);
