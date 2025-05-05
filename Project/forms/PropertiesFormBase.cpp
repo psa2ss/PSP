@@ -59,8 +59,9 @@ GeneralPropertiesFormBase::GeneralPropertiesFormBase(wxWindow* parent, wxWindowI
     wxArrayString m_choiceLanguageArr;
     m_choiceLanguageArr.Add(_("English"));
     m_choiceLanguageArr.Add(_("Portuguese"));
+	m_choiceLanguageArr.Add(_("Chinese"));
     m_choiceLanguage = new wxChoice(m_panelGeneral, wxID_ANY, wxDefaultPosition, wxDLG_UNIT(m_panelGeneral, wxSize(-1,-1)), m_choiceLanguageArr, 0);
-    m_choiceLanguage->SetSelection(0);
+    m_choiceLanguage->SetSelection(2);
     
     boxSizerLvl3_1->Add(m_choiceLanguage, 0, wxLEFT|wxRIGHT|wxBOTTOM|wxEXPAND, WXC_FROM_DIP(5));
     
@@ -944,7 +945,7 @@ AboutFormBase::AboutFormBase(wxWindow* parent, wxWindowID id, const wxString& ti
     
     boxSizerMain->Add(flexGridSizer247, 0, wxALL|wxEXPAND, WXC_FROM_DIP(5));
     
-    m_staticTextVersionLabel = new wxStaticText(this, wxID_ANY, _("Version:"), wxDefaultPosition, wxDLG_UNIT(this, wxSize(-1,-1)), 0);
+    m_staticTextVersionLabel = new wxStaticText(this, wxID_ANY, _("version:"), wxDefaultPosition, wxDLG_UNIT(this, wxSize(-1,-1)), 0);
     
     flexGridSizer247->Add(m_staticTextVersionLabel, 0, wxALL, WXC_FROM_DIP(5));
     
@@ -952,11 +953,11 @@ AboutFormBase::AboutFormBase(wxWindow* parent, wxWindowID id, const wxString& ti
     
     flexGridSizer247->Add(m_staticTextVersion, 0, wxALL, WXC_FROM_DIP(5));
     
-    m_staticTextHome = new wxStaticText(this, wxID_ANY, _("Home page:"), wxDefaultPosition, wxDLG_UNIT(this, wxSize(-1,-1)), 0);
+    m_staticTextHome = new wxStaticText(this, wxID_ANY, _("home page:"), wxDefaultPosition, wxDLG_UNIT(this, wxSize(-1,-1)), 0);
     
     flexGridSizer247->Add(m_staticTextHome, 0, wxALL, WXC_FROM_DIP(5));
     
-    m_hyperLinkPSP = new wxHyperlinkCtrl(this, wxID_ANY, _("https://thales1330.github.io/PSP/"), wxT("https://thales1330.github.io/PSP/"), wxDefaultPosition, wxDLG_UNIT(this, wxSize(-1,-1)), wxHL_DEFAULT_STYLE);
+    m_hyperLinkPSP = new wxHyperlinkCtrl(this, wxID_ANY, _("https://github.com/psa2ss/PSP"), wxT("https://github.com/psa2ss/PSP"), wxDefaultPosition, wxDLG_UNIT(this, wxSize(-1,-1)), wxHL_DEFAULT_STYLE);
     m_hyperLinkPSP->SetNormalColour(wxColour(wxT("#0000FF")));
     m_hyperLinkPSP->SetHoverColour(wxColour(wxT("#0000FF")));
     m_hyperLinkPSP->SetVisitedColour(wxColour(wxT("#FF0000")));
