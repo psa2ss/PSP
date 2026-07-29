@@ -1,0 +1,11 @@
+<map id="SwitchingForm" name="SwitchingForm">
+<area shape="rect" id="Node000001" title="Form to edit the switching data of power elements for electromechanical transient studies." alt="" coords="71,181,189,207"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,156,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,129,125,179,121,182,92,132"/>
+<area shape="rect" id="Node000003" href="$class_power_element.html" title="Abstract class of power elements." alt="" coords="180,93,296,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="214,129,146,183,143,179,211,125"/>
+<area shape="rect" id="Node000004" href="$class_element.html" title="Base class of all elements of the program. This class is responsible for manage graphical and his dat..." alt="" coords="140,5,216,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="196,41,232,91,227,94,192,44"/>
+<area shape="rect" id="Node000005" href="$struct_switching_data.html" title="Switching data of power elements." alt="" coords="240,5,356,31"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="284,44,249,94,244,91,280,41"/>
+</map>

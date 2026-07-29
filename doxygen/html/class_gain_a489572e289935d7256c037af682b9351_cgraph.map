@@ -1,0 +1,5 @@
+<map id="Gain::GetCopy" name="Gain::GetCopy">
+<area shape="rect" id="Node000001" title="Get a the element copy." alt="" coords="5,5,121,31"/>
+<area shape="rect" id="Node000002" href="$class_g_c_text.html#aaf81b82ffd02807c933947ed89a09406" title="Get a deep text copy." alt="" coords="169,5,301,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,15,155,15,155,21,122,21"/>
+</map>

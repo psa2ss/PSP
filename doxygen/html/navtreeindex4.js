@@ -1,0 +1,19 @@
+var NAVTREEINDEX4 =
+{
+"struct_reactive_machine.html#aa4b8f3e336f314d296322493361db8dd":[1,0,96,6],
+"struct_reactive_machine.html#acfc047755dcbc3e2a798987355a62036":[1,0,96,7],
+"struct_sim_test_data.html":[1,0,99],
+"struct_simulation_data.html":[1,0,100],
+"struct_switching_data.html":[1,0,105],
+"struct_switching_data.html#a3323745bf0a3f6461fbc19bc76a189df":[1,0,105,0],
+"struct_switching_data.html#af78fb958137a0532ea2a584810708574":[1,0,105,1],
+"struct_sync_generator_electrical_data.html":[1,0,108],
+"struct_sync_machine_model_data.html":[1,0,110],
+"struct_sync_machine_model_data.html#a810b9e3250ebb8f3d4176f6e5a2b1076":[1,0,110,1],
+"struct_sync_machine_model_data.html#ad2bda1ac696b664571e33f657f4a81b6":[1,0,110,0],
+"struct_sync_machine_model_data.html#af75546805bf92eb7a8a7280f7964b330":[1,0,110,2],
+"struct_sync_machine_model_data.html#af81596945918e86e56f5822a0ba97fbc":[1,0,110,3],
+"struct_sync_motor_electrical_data.html":[1,0,112],
+"struct_transfer_function_1_1_space_state.html":[1,0,115,0],
+"struct_transformer_electrical_data.html":[1,0,118]
+};
