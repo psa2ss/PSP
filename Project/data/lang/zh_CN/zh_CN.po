@@ -1,3 +1,4 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PSP-UFU zh_CN 1.4.1\n"
@@ -224,7 +225,7 @@ msgstr "插入谐波电流源：点击母线，ESC取消."
 #: MainFrame.cpp:561 editors/Workspace.cpp:925
 #, c-format
 msgid "Induction motor %d"
-msgstr ""
+msgstr "感应电动机 %d"
 
 #: MainFrame.cpp:564 editors/Workspace.cpp:929
 msgid "Insert Induction Motor: Click on a buses, ESC to cancel."
@@ -506,146 +507,146 @@ msgstr "连续的"
 
 #: MainFrameBase.cpp:179
 msgid "Enable Solution"
-msgstr ""
+msgstr "启用求解"
 
 #: MainFrameBase.cpp:179
 msgid ""
 "Enables the power flow and fault (if exists) calculations after any circuit "
 "change"
-msgstr ""
+msgstr "在任何电路变更后启用潮流与短路（若存在）计算"
 
 #: MainFrameBase.cpp:181
 msgid "Disable Solution"
-msgstr ""
+msgstr "停用求解"
 
 #: MainFrameBase.cpp:181
 msgid ""
 "Disables the power flow and fault calculations after any circuit changes"
-msgstr ""
+msgstr "在任何电路变更后停用潮流与短路计算"
 
 #: MainFrameBase.cpp:183
 msgid "Reset Voltages"
-msgstr ""
+msgstr "重置电压"
 
 #: MainFrameBase.cpp:183
 msgid "Reset all voltages to initial state"
-msgstr ""
+msgstr "将所有电压重置为初始状态"
 
 #: MainFrameBase.cpp:186 MainFrameBase.cpp:187 MainFrameBase.cpp:190
 msgid "Simulations"
-msgstr ""
+msgstr "仿真"
 
 #: MainFrameBase.cpp:192
 msgid "Power Flow"
-msgstr ""
+msgstr "潮流计算"
 
 #: MainFrameBase.cpp:192
 msgid "Calculate the circuit power flow"
-msgstr ""
+msgstr "计算电路潮流"
 
 #: MainFrameBase.cpp:194
 msgid "Run Stability"
-msgstr ""
+msgstr "运行稳定性"
 
 #: MainFrameBase.cpp:194
 msgid "Run the stability calculations"
-msgstr ""
+msgstr "运行稳定性计算"
 
 #: MainFrameBase.cpp:196 forms/DataReportBase.cpp:157
 #: forms/ElementFormBase.cpp:128 forms/ElementFormBase.cpp:599
 #: forms/ElementFormBase.cpp:1518 forms/ElementFormBase.cpp:1863
 #: forms/StabilityEventList.cpp:38 forms/StabilityEventList.cpp:43
 msgid "Fault"
-msgstr ""
+msgstr "短路故障"
 
 #: MainFrameBase.cpp:196
 msgid "Calculate the circuit fault (if exists)"
-msgstr ""
+msgstr "计算电路短路故障（若存在）"
 
 #: MainFrameBase.cpp:198
 msgid "Short-Circuit Power"
-msgstr ""
+msgstr "短路容量"
 
 #: MainFrameBase.cpp:198
 msgid "Calculate the short-circuit power in all buses"
-msgstr ""
+msgstr "计算所有母线的短路容量"
 
 #: MainFrameBase.cpp:200
 msgid "Harmonic Distortions"
-msgstr ""
+msgstr "谐波畸变"
 
 #: MainFrameBase.cpp:200
 msgid ""
 "Calculate the voltage distortions on all buses due to harmonic current "
 "sources"
-msgstr ""
+msgstr "计算由谐波电流源引起的所有母线电压畸变"
 
 #: MainFrameBase.cpp:202 forms/PropertiesFormBase.h:373
 msgid "Frequency response"
-msgstr ""
+msgstr "频率响应"
 
 #: MainFrameBase.cpp:202
 msgid "Calculate the impedance seen in a bus for varies frequencies"
-msgstr ""
+msgstr "计算母线在不同频率下呈现的阻抗"
 
 #: MainFrameBase.cpp:204
 msgid "Simulation Settings"
-msgstr ""
+msgstr "仿真设置"
 
 #: MainFrameBase.cpp:204
 msgid "Opens a dialog to set the settings of the simulations"
-msgstr ""
+msgstr "打开对话框以设置仿真参数"
 
 #: MainFrameBase.h:153
 msgid "PSP-UFU"
-msgstr ""
+msgstr "PSP-UFU"
 
 #: editors/ChartView.cpp:38 editors/ChartView.cpp:200
 msgid "Color"
-msgstr ""
+msgstr "颜色"
 
 #: editors/ChartView.cpp:49
 msgid "Solid"
-msgstr ""
+msgstr "实线"
 
 #: editors/ChartView.cpp:50
 msgid "Dot"
-msgstr ""
+msgstr "点线"
 
 #: editors/ChartView.cpp:51
 msgid "Dash"
-msgstr ""
+msgstr "虚线"
 
 #: editors/ChartView.cpp:52
 msgid "Dot and dash"
-msgstr ""
+msgstr "点划线"
 
 #: editors/ChartView.cpp:54
 msgid "Cross"
-msgstr ""
+msgstr "十字"
 
 #: editors/ChartView.cpp:55
 msgid "Driagonal cross"
-msgstr ""
+msgstr "对角交叉"
 
 #: editors/ChartView.cpp:83 editors/ChartView.cpp:84 editors/ChartView.cpp:826
 #: editors/ChartView.cpp:828
 msgid "auto"
-msgstr ""
+msgstr "自动"
 
 #: editors/ChartView.cpp:143 editors/ChartView.cpp:732
 #: forms/ElementFormBase.cpp:247
 msgid "Time"
-msgstr ""
+msgstr "时间"
 
 #: editors/ChartView.cpp:150 forms/DataReport.cpp:400
 #: forms/ElementFormBase.cpp:3086 forms/ElementFormBase.h:150
 msgid "Bus"
-msgstr ""
+msgstr "母线"
 
 #: editors/ChartView.cpp:151 forms/ElementFormBase.cpp:3094
 msgid "Induction motor"
-msgstr ""
+msgstr "感应电动机"
 
 #: editors/ChartView.cpp:152 forms/DataReport.cpp:491 forms/DataReport.cpp:502
 #: forms/DataReport.cpp:641 forms/DataReport.cpp:848 forms/DataReport.cpp:889
@@ -653,53 +654,53 @@ msgstr ""
 #: forms/ElementFormBase.h:461 forms/ImportForm.cpp:418
 #: forms/ImportForm.cpp:647
 msgid "Line"
-msgstr ""
+msgstr "线路"
 
 #: editors/ChartView.cpp:153 forms/ElementFormBase.cpp:3090
 #: forms/ElementFormBase.h:648 forms/ImportForm.cpp:257
 #: forms/ImportForm.cpp:458 forms/ImportForm.cpp:696 forms/ImportForm.cpp:710
 msgid "Load"
-msgstr ""
+msgstr "负荷"
 
 #: editors/ChartView.cpp:154 elements/powerElement/Capacitor.cpp:239
 #: forms/ElementFormBase.cpp:3091 forms/ImportForm.cpp:292
 #: forms/ImportForm.cpp:738
 msgid "Capacitor"
-msgstr ""
+msgstr "电容器"
 
 #: editors/ChartView.cpp:155 elements/powerElement/Inductor.cpp:230
 #: forms/ElementFormBase.cpp:3092 forms/ImportForm.cpp:299
 #: forms/ImportForm.cpp:726
 msgid "Inductor"
-msgstr ""
+msgstr "电抗器"
 
 #: editors/ChartView.cpp:156 forms/ElementFormBase.cpp:3093
 #: forms/ImportForm.cpp:212 forms/ImportForm.cpp:505
 msgid "Synchronous compensator"
-msgstr ""
+msgstr "同步调相机"
 
 #: editors/ChartView.cpp:157
 msgid "Synchronous generator"
-msgstr ""
+msgstr "同步发电机"
 
 #: editors/ChartView.cpp:158 forms/DataReport.cpp:535 forms/DataReport.cpp:546
 #: forms/DataReport.cpp:691 forms/DataReport.cpp:956 forms/DataReport.cpp:997
 #: forms/DataReport.cpp:1272 forms/ElementFormBase.cpp:3089
 #: forms/ElementFormBase.h:560 forms/ImportForm.cpp:381
 msgid "Transformer"
-msgstr ""
+msgstr "变压器"
 
 #: editors/ChartView.cpp:159 editors/ControlEditor.cpp:845
 msgid "Test"
-msgstr ""
+msgstr "测试"
 
 #: editors/ChartView.cpp:186 editors/ChartViewBase.cpp:134
 msgid "Draw"
-msgstr ""
+msgstr "绘制"
 
 #: editors/ChartView.cpp:205 editors/ChartViewBase.cpp:138
 msgid "Thickness"
-msgstr ""
+msgstr "粗细"
 
 #: editors/ChartView.cpp:208 editors/ChartViewBase.cpp:144
 #: forms/DataReport.cpp:298 forms/DataReport.cpp:310 forms/DataReport.cpp:320
@@ -707,53 +708,53 @@ msgstr ""
 #: forms/ElementFormBase.cpp:2528 forms/StabilityEventList.cpp:121
 #: forms/SwitchingForm.cpp:23 forms/SwitchingForm.cpp:32
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #: editors/ChartView.cpp:211 editors/ChartViewBase.cpp:152
 msgid "Axis"
-msgstr ""
+msgstr "坐标轴"
 
 #: editors/ChartView.cpp:227 editors/ChartViewBase.cpp:171
 msgid "Margins"
-msgstr ""
+msgstr "边距"
 
 #: editors/ChartView.cpp:238 editors/ChartViewBase.cpp:186
 msgid "Axis limit"
-msgstr ""
+msgstr "坐标轴范围"
 
 #: editors/ChartView.cpp:300 editors/ChartView.cpp:317
 msgid "Save image"
-msgstr ""
+msgstr "保存图像"
 
 #: editors/ChartView.cpp:356
 msgid "Chart send to clipboard"
-msgstr ""
+msgstr "图表发送到剪贴板"
 
 #: editors/ChartView.cpp:356 forms/GeneralPropertiesForm.cpp:160
 msgid "Info"
-msgstr ""
+msgstr "信息"
 
 #: editors/ChartView.cpp:361
 msgid "It was not possible to send to clipboard"
-msgstr ""
+msgstr "无法发送到剪贴板"
 
 #: editors/ChartView.cpp:367
 msgid "It was not possible to create the screenshot"
-msgstr ""
+msgstr "无法创建截图"
 
 #: editors/ChartView.cpp:518 editors/ChartView.h:116
 #: forms/ElementFormBase.cpp:2531 forms/SwitchingForm.cpp:24
 #: forms/SwitchingForm.cpp:33
 msgid "Time (s)"
-msgstr ""
+msgstr "时间 (s)"
 
 #: editors/ChartView.cpp:687
 msgid "Save CSV file"
-msgstr ""
+msgstr "保存 CSV 文件"
 
 #: editors/ChartView.cpp:694
 msgid "It was not possible to open or create the selected file."
-msgstr ""
+msgstr "无法打开或创建所选文件。"
 
 #: editors/ChartView.cpp:1009 elements/powerElement/Bus.cpp:261
 #: elements/powerElement/Bus.cpp:344 forms/DataReport.cpp:313
@@ -765,204 +766,204 @@ msgstr ""
 #: forms/HarmCurrentForm.cpp:12 forms/HarmCurrentForm.cpp:163
 #: forms/TextForm.cpp:880
 msgid "Angle"
-msgstr ""
+msgstr "相角"
 
 #: editors/ChartView.cpp:1010 elements/powerElement/SyncGenerator.cpp:282
 msgid "Delta"
-msgstr ""
+msgstr "功角"
 
 #: editors/ChartView.cpp:1011 elements/powerElement/SyncGenerator.cpp:280
 msgid "Frequency"
-msgstr ""
+msgstr "频率"
 
 #: editors/ChartView.cpp:1012 forms/IOControlForm.cpp:37
 msgid "Velocity"
-msgstr ""
+msgstr "转速"
 
 #: editors/ChartView.cpp:1013 elements/powerElement/IndMotor.cpp:293
 msgid "Slip"
-msgstr ""
+msgstr "转差"
 
 #: editors/ChartViewBase.cpp:77
 msgid "Save chart as image"
-msgstr ""
+msgstr "将图表保存为图像"
 
 #: editors/ChartViewBase.cpp:80
 msgid "Send to clipboard"
-msgstr ""
+msgstr "发送到剪贴板"
 
 #: editors/ChartViewBase.cpp:83
 msgid "Export CSV..."
-msgstr ""
+msgstr "导出 CSV..."
 
 #: editors/ChartViewBase.cpp:92
 msgid "View"
-msgstr ""
+msgstr "视图"
 
 #: editors/ChartViewBase.cpp:99
 msgid "Show grid"
-msgstr ""
+msgstr "显示网格"
 
 #: editors/ChartViewBase.cpp:102
 msgid "Show label"
-msgstr ""
+msgstr "显示标签"
 
 #: editors/ChartViewBase.cpp:105
 msgid "Show coordinates"
-msgstr ""
+msgstr "显示坐标"
 
 #: editors/ChartViewBase.cpp:108
 msgid "Dark theme"
-msgstr ""
+msgstr "深色主题"
 
 #: editors/ChartViewBase.cpp:131
 msgid "Line properties"
-msgstr ""
+msgstr "线条属性"
 
 #: editors/ChartViewBase.cpp:150
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: editors/ChartViewBase.cpp:151
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: editors/ChartViewBase.cpp:156
 msgid "Chart properties"
-msgstr ""
+msgstr "图表属性"
 
 #: editors/ChartViewBase.cpp:159
 msgid "Chart title"
-msgstr ""
+msgstr "图表标题"
 
 #: editors/ChartViewBase.cpp:163
 msgid "X axis label"
-msgstr ""
+msgstr "X 轴标签"
 
 #: editors/ChartViewBase.cpp:167
 msgid "Y axis label"
-msgstr ""
+msgstr "Y 轴标签"
 
 #: editors/ChartViewBase.cpp:174 forms/ElementFormBase.cpp:2547
 msgid "Up"
-msgstr ""
+msgstr "上"
 
 #: editors/ChartViewBase.cpp:177
 msgid "Botton"
-msgstr ""
+msgstr "下"
 
 #: editors/ChartViewBase.cpp:180
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 #: editors/ChartViewBase.cpp:183
 msgid "Right"
-msgstr ""
+msgstr "右"
 
 #: editors/ChartViewBase.cpp:189
 msgid "X min"
-msgstr ""
+msgstr "X 最小值"
 
 #: editors/ChartViewBase.cpp:192
 msgid "X max"
-msgstr ""
+msgstr "X 最大值"
 
 #: editors/ChartViewBase.cpp:195
 msgid "Y min"
-msgstr ""
+msgstr "Y 最小值"
 
 #: editors/ChartViewBase.cpp:198
 msgid "Y max"
-msgstr ""
+msgstr "Y 最大值"
 
 #: editors/ChartViewBase.h:99
 msgid "Chart viewer"
-msgstr ""
+msgstr "图表查看器"
 
 #: editors/ControlEditor.cpp:161
 msgid "In/Out"
-msgstr ""
+msgstr "输入/输出"
 
 #: editors/ControlEditor.cpp:168
 msgid "Transfer fcn"
-msgstr ""
+msgstr "传递函数"
 
 #: editors/ControlEditor.cpp:175 forms/ElementFormBase.h:952
 msgid "Sum"
-msgstr ""
+msgstr "求和"
 
 #: editors/ControlEditor.cpp:182 forms/ElementFormBase.h:1070
 msgid "Constant"
-msgstr ""
+msgstr "常数"
 
 #: editors/ControlEditor.cpp:189 forms/ElementFormBase.h:1096
 msgid "Gain"
-msgstr ""
+msgstr "增益"
 
 #: editors/ControlEditor.cpp:196 forms/ElementFormBase.h:982
 msgid "Limiter"
-msgstr ""
+msgstr "限幅器"
 
 #: editors/ControlEditor.cpp:203 forms/ElementFormBase.h:1012
 msgid "Rate limiter"
-msgstr ""
+msgstr "变化率限幅器"
 
 #: editors/ControlEditor.cpp:210
 msgid "Multiplier"
-msgstr ""
+msgstr "乘法器"
 
 #: editors/ControlEditor.cpp:217
 msgid "Divider"
-msgstr ""
+msgstr "除法器"
 
 #: editors/ControlEditor.cpp:224
 msgid "Math Expression"
-msgstr ""
+msgstr "数学表达式"
 
 #: editors/ControlEditor.cpp:231 forms/ElementFormBase.h:1044
 msgid "Exponential"
-msgstr ""
+msgstr "指数"
 
 #: editors/ControlEditor.cpp:811
 msgid "Save CTL file"
-msgstr ""
+msgstr "保存 CTL 文件"
 
 #: editors/ControlEditor.cpp:822
 msgid "Open CTL file"
-msgstr ""
+msgstr "打开 CTL 文件"
 
 #: editors/ControlEditor.cpp:845 simulation/Electromechanical.cpp:72
 #: utils/GraphAutoLayout.cpp:42
 msgid "Initializing..."
-msgstr ""
+msgstr "初始化中..."
 
 #: editors/ControlEditor.cpp:909
 msgid "I/O"
-msgstr ""
+msgstr "输入/输出"
 
 #: editors/ControlEditor.cpp:910 forms/ElementFormBase.cpp:3942
 msgid "Input"
-msgstr ""
+msgstr "输入"
 
 #: editors/ControlEditor.cpp:911 forms/ElementFormBase.cpp:3952
 msgid "Output"
-msgstr ""
+msgstr "输出"
 
 #: editors/ControlEditor.cpp:925
 msgid "It was not possible to solve the control system"
-msgstr ""
+msgstr "无法求解控制系统"
 
 #: editors/ControlEditorBase.cpp:78
 msgid "Export"
-msgstr ""
+msgstr "导出"
 
 #: editors/ControlEditorBase.cpp:107
 msgid "Control elements"
-msgstr ""
+msgstr "控制元件"
 
 #: editors/ControlEditorBase.cpp:128
 msgid "Test system..."
-msgstr ""
+msgstr "测试系统..."
 
 #: editors/ControlEditorBase.cpp:134 forms/DataReportBase.cpp:402
 #: forms/ElementFormBase.cpp:350 forms/ElementFormBase.cpp:751
@@ -979,7 +980,7 @@ msgstr ""
 #: forms/PropertiesFormBase.cpp:876 forms/PropertiesFormBase.cpp:1047
 #: forms/PropertiesFormBase.cpp:1318
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 #: editors/ControlEditorBase.cpp:216 forms/ElementFormBase.cpp:46
 #: forms/ElementFormBase.cpp:424 forms/ElementFormBase.cpp:1341
@@ -993,27 +994,27 @@ msgstr ""
 #: forms/PropertiesFormBase.cpp:46 forms/PropertiesFormBase.cpp:170
 #: forms/PropertiesFormBase.cpp:1252
 msgid "General"
-msgstr ""
+msgstr "常规"
 
 #: editors/ControlEditorBase.cpp:221
 msgid "Input type:"
-msgstr ""
+msgstr "输入类型:"
 
 #: editors/ControlEditorBase.cpp:226
 msgid "Step"
-msgstr ""
+msgstr "阶跃"
 
 #: editors/ControlEditorBase.cpp:227
 msgid "Ramp"
-msgstr ""
+msgstr "斜坡"
 
 #: editors/ControlEditorBase.cpp:228
 msgid "Quadratic"
-msgstr ""
+msgstr "二次"
 
 #: editors/ControlEditorBase.cpp:242
 msgid "Start time"
-msgstr ""
+msgstr "起始时间"
 
 #: editors/ControlEditorBase.cpp:257 editors/ControlEditorBase.cpp:310
 #: forms/ElementFormBase.cpp:262 forms/ElementFormBase.cpp:285
@@ -1023,23 +1024,23 @@ msgstr ""
 #: forms/PropertiesFormBase.cpp:402 forms/PropertiesFormBase.cpp:425
 #: forms/PropertiesFormBase.cpp:493
 msgid "s"
-msgstr ""
+msgstr "s"
 
 #: editors/ControlEditorBase.cpp:265
 msgid "Slope"
-msgstr ""
+msgstr "斜率"
 
 #: editors/ControlEditorBase.cpp:280 forms/PropertiesFormBase.cpp:387
 msgid "Time step"
-msgstr ""
+msgstr "时间步长"
 
 #: editors/ControlEditorBase.cpp:295 forms/PropertiesFormBase.cpp:410
 msgid "Simulation time"
-msgstr ""
+msgstr "仿真时间"
 
 #: editors/ControlEditorBase.cpp:318 forms/PropertiesFormBase.cpp:1197
 msgid "Run"
-msgstr ""
+msgstr "运行"
 
 #: editors/ControlEditorBase.cpp:322 forms/ElementFormBase.cpp:354
 #: forms/ElementFormBase.cpp:755 forms/ElementFormBase.cpp:1280
@@ -1055,77 +1056,78 @@ msgstr ""
 #: forms/PropertiesFormBase.cpp:750 forms/PropertiesFormBase.cpp:1051
 #: forms/PropertiesFormBase.cpp:1201 forms/PropertiesFormBase.cpp:1322
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: editors/ControlEditorBase.h:91
 msgid "Control editor"
-msgstr ""
+msgstr "控制编辑器"
 
 #: editors/ControlEditorBase.h:137
 msgid "Control system test"
-msgstr ""
+msgstr "控制系统测试"
 
 #: editors/ControlSystemTest.cpp:53
 msgid "Value entered incorrectly in the field \"Start time\"."
-msgstr ""
+msgstr "“起始时间”字段输入有误。"
 
 #: editors/ControlSystemTest.cpp:60
 msgid "Value entered incorrectly in the field \"Slope\"."
-msgstr ""
+msgstr "“斜率”字段输入有误。"
 
 #: editors/ControlSystemTest.cpp:67 forms/SimulationsSettingsForm.cpp:149
 msgid "Value entered incorrectly in the field \"Time step\"."
-msgstr ""
+msgstr "“时间步长”字段输入有误。"
 
 #: editors/ControlSystemTest.cpp:74 forms/SimulationsSettingsForm.cpp:152
 msgid "Value entered incorrectly in the field \"Simulation time\"."
-msgstr ""
+msgstr "“仿真时间”字段输入有误。"
 
-#: editors/Workspace.cpp:57 editors/Workspace.cpp:72 editors/Workspace.cpp:2131
+#: editors/Workspace.cpp:57 editors/Workspace.cpp:72
+#: editors/Workspace.cpp:2131
 msgid "Debug window: "
-msgstr ""
+msgstr "调试窗口: "
 
 #: editors/Workspace.cpp:374
 msgid "Do you want to change the rated voltage of the path?"
-msgstr ""
+msgstr "是否更改路径的额定电压？"
 
 #: editors/Workspace.cpp:375 simulation/Fault.cpp:72
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: editors/Workspace.cpp:1038
 msgid "MODE: DRAG"
-msgstr ""
+msgstr "模式: 拖动"
 
 #: editors/Workspace.cpp:1043
 msgid "MODE: PASTE"
-msgstr ""
+msgstr "模式: 粘贴"
 
 #: editors/Workspace.cpp:1050
 msgid "MODE: INSERT"
-msgstr ""
+msgstr "模式: 插入"
 
 #: editors/Workspace.cpp:1059
 msgid "MODE: EDIT"
-msgstr ""
+msgstr "模式: 编辑"
 
 #: editors/Workspace.cpp:1063
 #, c-format
 msgid "ZOOM: %d%%"
-msgstr ""
+msgstr "缩放: %d%%"
 
 #: editors/Workspace.cpp:1736
 #, c-format
 msgid "Power flow converge with %d iterations (%ld ms)"
-msgstr ""
+msgstr "潮流在 %d 次迭代后收敛（%ld 毫秒）"
 
 #: editors/Workspace.cpp:1797 editors/Workspace.cpp:1908
 msgid "It was not possible to paste from clipboard."
-msgstr ""
+msgstr "无法从剪贴板粘贴。"
 
 #: editors/Workspace.cpp:1916
 msgid "Click to paste."
-msgstr ""
+msgstr "点击粘贴。"
 
 #: editors/Workspace.cpp:2254
 #, c-format
@@ -1133,92 +1135,97 @@ msgid ""
 "The program took %ld ms to run this system.\n"
 "Do you wish to open the stability graphics?"
 msgstr ""
+"运行该系统耗时 %ld 毫秒。\n"
+"是否打开稳定性曲线图？"
 
 #: editors/Workspace.cpp:2256 editors/Workspace.cpp:2377
 msgid "Question"
-msgstr ""
+msgstr "询问"
 
 #: editors/Workspace.cpp:2266
 msgid "Simulation parameters"
-msgstr ""
+msgstr "仿真参数"
 
 #: editors/Workspace.cpp:2268
 msgid "Iterations number"
-msgstr ""
+msgstr "迭代次数"
 
 #: editors/Workspace.cpp:2376
 msgid ""
 "Calculations done.\n"
 "Do you wish to open the frequency response graphics?"
 msgstr ""
+"计算完成。\n"
+"是否打开频率响应曲线图？"
 
 #: elements/Element.cpp:291
 msgid "Rotate counter-clockwise"
-msgstr ""
+msgstr "逆时针旋转"
 
 #: elements/GCText.h:69 elements/Text.h:110 forms/ElementFormBase.h:896
 msgid "Text"
-msgstr ""
+msgstr "文本"
 
 #: elements/Text.cpp:334
 msgid "THD = "
-msgstr ""
+msgstr "THD = "
 
 #: elements/controlElement/ControlElementSolver.cpp:66
 msgid "The control system must have at least one input and one output."
-msgstr ""
+msgstr "控制系统必须至少有一个输入和一个输出。"
 
 #: elements/controlElement/ControlElementSolver.cpp:83
 msgid "There is no input in the control system."
-msgstr ""
+msgstr "控制系统中没有输入。"
 
 #: elements/controlElement/ControlElementSolver.cpp:87
 msgid "There is no output in the control system."
-msgstr ""
+msgstr "控制系统中没有输出。"
 
 #: elements/controlElement/ControlElementSolver.cpp:92
 msgid "Input not connected."
-msgstr ""
+msgstr "输入未连接。"
 
 #: elements/controlElement/ControlElementSolver.cpp:101
 #: elements/controlElement/ControlElementSolver.cpp:157
 msgid "It was not possible to initialize the control system."
-msgstr ""
+msgstr "无法初始化控制系统。"
 
 #: elements/controlElement/ControlElementSolver.h:86
 msgid "Unknown error."
-msgstr ""
+msgstr "未知错误。"
 
 #: elements/controlElement/IOControl.cpp:256
 #: elements/controlElement/IOControl.cpp:280
 msgid "Vt"
-msgstr ""
+msgstr "Vt"
 
 #: elements/controlElement/IOControl.cpp:264
 #: elements/controlElement/IOControl.cpp:296
 msgid "P"
-msgstr ""
+msgstr "P"
 
 #: elements/controlElement/IOControl.cpp:268
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 #: elements/controlElement/IOControl.cpp:272
 msgid "Vf"
-msgstr ""
+msgstr "Vf"
 
 #: elements/controlElement/IOControl.cpp:276
 #: elements/controlElement/IOControl.cpp:284
 msgid "Pm"
-msgstr ""
+msgstr "Pm"
 
 #: elements/powerElement/Bus.cpp:255
 msgid "Edit bus"
-msgstr ""
+msgstr "编辑母线"
 
 #: elements/powerElement/Bus.cpp:259 elements/powerElement/Capacitor.cpp:216
-#: elements/powerElement/IndMotor.cpp:62 elements/powerElement/Inductor.cpp:211
-#: elements/powerElement/Line.cpp:374 elements/powerElement/Load.cpp:218
+#: elements/powerElement/IndMotor.cpp:62
+#: elements/powerElement/Inductor.cpp:211 elements/powerElement/Line.cpp:374
+#: elements/powerElement/Load.cpp:218
 #: elements/powerElement/SyncGenerator.cpp:87
 #: elements/powerElement/SyncMotor.cpp:45
 #: elements/powerElement/Transformer.cpp:371 forms/DataReport.cpp:299
@@ -1233,55 +1240,58 @@ msgstr ""
 #: forms/TextForm.cpp:910 forms/TextForm.cpp:921 forms/TextForm.cpp:929
 #: forms/TextForm.cpp:936 forms/TextForm.cpp:943 forms/TextForm.cpp:951
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: elements/powerElement/Bus.cpp:260 elements/powerElement/Bus.cpp:343
 #: elements/powerElement/Load.cpp:357 forms/TextForm.cpp:879
 msgid "Voltage"
-msgstr ""
+msgstr "电压"
 
-#: elements/powerElement/Bus.cpp:262 elements/powerElement/SyncGenerator.cpp:90
-#: forms/TextForm.cpp:881 forms/TextForm.cpp:893 forms/TextForm.cpp:904
-#: forms/TextForm.cpp:915
+#: elements/powerElement/Bus.cpp:262
+#: elements/powerElement/SyncGenerator.cpp:90 forms/TextForm.cpp:881
+#: forms/TextForm.cpp:893 forms/TextForm.cpp:904 forms/TextForm.cpp:915
 msgid "Fault current"
-msgstr ""
+msgstr "故障电流"
 
 #: elements/powerElement/Bus.cpp:263 forms/TextForm.cpp:882
 msgid "Fault voltage"
-msgstr ""
+msgstr "故障电压"
 
 #: elements/powerElement/Bus.cpp:264 forms/TextForm.cpp:883
 msgid "Short-circuit power"
-msgstr ""
+msgstr "短路容量"
 
 #: elements/powerElement/Bus.cpp:265 forms/TextForm.cpp:884
 msgid "Voltage THD"
-msgstr ""
+msgstr "电压总谐波畸变率"
 
 #: elements/powerElement/Bus.cpp:269 elements/powerElement/Capacitor.cpp:219
-#: elements/powerElement/IndMotor.cpp:66 elements/powerElement/Inductor.cpp:214
-#: elements/powerElement/Line.cpp:385 elements/powerElement/Load.cpp:224
+#: elements/powerElement/IndMotor.cpp:66
+#: elements/powerElement/Inductor.cpp:214 elements/powerElement/Line.cpp:385
+#: elements/powerElement/Load.cpp:224
 #: elements/powerElement/SyncGenerator.cpp:92
 #: elements/powerElement/SyncMotor.cpp:49
 #: elements/powerElement/Transformer.cpp:382
 msgid "Add text"
-msgstr ""
+msgstr "添加文本"
 
 #: elements/powerElement/Bus.cpp:299 elements/powerElement/Transformer.cpp:531
 #: elements/powerElement/Transformer.cpp:542
 msgid " V"
-msgstr ""
+msgstr " V"
 
 #: elements/powerElement/Bus.cpp:300 elements/powerElement/Transformer.cpp:534
 #: elements/powerElement/Transformer.cpp:545
 msgid " kV"
-msgstr ""
+msgstr " kV"
 
 #: elements/powerElement/Bus.cpp:302
 msgid ""
 "\n"
 "V = "
 msgstr ""
+"\n"
+"V = "
 
 #: elements/powerElement/Bus.cpp:302 elements/powerElement/Bus.cpp:308
 #: elements/powerElement/Bus.cpp:309 elements/powerElement/Bus.cpp:310
@@ -1303,7 +1313,7 @@ msgstr ""
 #: elements/powerElement/Transformer.cpp:564
 #: elements/powerElement/Transformer.cpp:566
 msgid " p.u."
-msgstr ""
+msgstr " p.u."
 
 #: elements/powerElement/Bus.cpp:307
 msgid ""
@@ -1311,42 +1321,57 @@ msgid ""
 "\n"
 "Fault info:"
 msgstr ""
+"\n"
+"\n"
+"故障信息:"
 
 #: elements/powerElement/Bus.cpp:308
 msgid ""
 "\n"
 "Va = "
 msgstr ""
+"\n"
+"Va = "
 
 #: elements/powerElement/Bus.cpp:309
 msgid ""
 "\n"
 "Vb = "
 msgstr ""
+"\n"
+"Vb = "
 
 #: elements/powerElement/Bus.cpp:310
 msgid ""
 "\n"
 "Vc = "
 msgstr ""
+"\n"
+"Vc = "
 
 #: elements/powerElement/Bus.cpp:312
 msgid ""
 "\n"
 "Ia = "
 msgstr ""
+"\n"
+"Ia = "
 
 #: elements/powerElement/Bus.cpp:313
 msgid ""
 "\n"
 "Ib = "
 msgstr ""
+"\n"
+"Ib = "
 
 #: elements/powerElement/Bus.cpp:314
 msgid ""
 "\n"
 "Ic = "
 msgstr ""
+"\n"
+"Ic = "
 
 #: elements/powerElement/Bus.cpp:317
 msgid ""
@@ -1354,6 +1379,9 @@ msgid ""
 "\n"
 "Ssc = "
 msgstr ""
+"\n"
+"\n"
+"Ssc = "
 
 #: elements/powerElement/Bus.cpp:318
 msgid ""
@@ -1361,6 +1389,9 @@ msgid ""
 "\n"
 "THD = "
 msgstr ""
+"\n"
+"\n"
+"THD = "
 
 #: elements/powerElement/Bus.cpp:322
 #, c-format
@@ -1368,17 +1399,20 @@ msgid ""
 "\n"
 "Vh(%d) = %.5e%s%.2f%s p.u."
 msgstr ""
+"\n"
+"Vh(%d) = %.5e%s%.2f%s p.u."
 
 #: elements/powerElement/Bus.cpp:351
 msgid "Impedance"
-msgstr ""
+msgstr "阻抗"
 
 #: elements/powerElement/Capacitor.cpp:212
 msgid "Edit Capacitor"
-msgstr ""
+msgstr "编辑电容器"
 
 #: elements/powerElement/Capacitor.cpp:217
-#: elements/powerElement/IndMotor.cpp:64 elements/powerElement/IndMotor.cpp:288
+#: elements/powerElement/IndMotor.cpp:64
+#: elements/powerElement/IndMotor.cpp:288
 #: elements/powerElement/Inductor.cpp:212 elements/powerElement/Load.cpp:220
 #: elements/powerElement/Load.cpp:359
 #: elements/powerElement/SyncGenerator.cpp:89
@@ -1390,7 +1424,7 @@ msgstr ""
 #: forms/TextForm.cpp:892 forms/TextForm.cpp:923 forms/TextForm.cpp:930
 #: forms/TextForm.cpp:937 forms/TextForm.cpp:945 forms/TextForm.cpp:953
 msgid "Reactive power"
-msgstr ""
+msgstr "无功功率"
 
 #: elements/powerElement/Capacitor.cpp:291
 #: elements/powerElement/IndMotor.cpp:155
@@ -1401,6 +1435,8 @@ msgid ""
 "\n"
 "Q = "
 msgstr ""
+"\n"
+"Q = "
 
 #: elements/powerElement/Capacitor.cpp:297
 #: elements/powerElement/IndMotor.cpp:161
@@ -1408,7 +1444,7 @@ msgstr ""
 #: elements/powerElement/SyncGenerator.cpp:249
 #: elements/powerElement/SyncMotor.cpp:188
 msgid " VAr"
-msgstr ""
+msgstr " VAr"
 
 #: elements/powerElement/Capacitor.cpp:300
 #: elements/powerElement/IndMotor.cpp:164
@@ -1416,7 +1452,7 @@ msgstr ""
 #: elements/powerElement/SyncGenerator.cpp:252
 #: elements/powerElement/SyncMotor.cpp:191
 msgid " kVAr"
-msgstr ""
+msgstr " kVAr"
 
 #: elements/powerElement/Capacitor.cpp:303
 #: elements/powerElement/IndMotor.cpp:167
@@ -1424,22 +1460,23 @@ msgstr ""
 #: elements/powerElement/SyncGenerator.cpp:255
 #: elements/powerElement/SyncMotor.cpp:194
 msgid " MVAr"
-msgstr ""
+msgstr " MVAr"
 
 #: elements/powerElement/HarmCurrent.cpp:227
 msgid "Edit Harmonic Current Source"
-msgstr ""
+msgstr "编辑谐波电流源"
 
 #: elements/powerElement/HarmCurrent.cpp:250
 msgid "Harmonic Current Source"
-msgstr ""
+msgstr "谐波电流源"
 
 #: elements/powerElement/IndMotor.cpp:58
 msgid "Edit induction motor"
-msgstr ""
+msgstr "编辑感应电动机"
 
-#: elements/powerElement/IndMotor.cpp:63 elements/powerElement/IndMotor.cpp:287
-#: elements/powerElement/Load.cpp:219 elements/powerElement/Load.cpp:358
+#: elements/powerElement/IndMotor.cpp:63
+#: elements/powerElement/IndMotor.cpp:287 elements/powerElement/Load.cpp:219
+#: elements/powerElement/Load.cpp:358
 #: elements/powerElement/SyncGenerator.cpp:88
 #: elements/powerElement/SyncGenerator.cpp:277
 #: elements/powerElement/SyncMotor.cpp:46 forms/ElementFormBase.cpp:479
@@ -1448,7 +1485,7 @@ msgstr ""
 #: forms/PropertiesFormBase.cpp:517 forms/TextForm.cpp:891
 #: forms/TextForm.cpp:922 forms/TextForm.cpp:944 forms/TextForm.cpp:952
 msgid "Active power"
-msgstr ""
+msgstr "有功功率"
 
 #: elements/powerElement/IndMotor.cpp:136 elements/powerElement/Load.cpp:304
 #: elements/powerElement/SyncGenerator.cpp:224
@@ -1457,67 +1494,71 @@ msgid ""
 "\n"
 "P = "
 msgstr ""
+"\n"
+"P = "
 
 #: elements/powerElement/IndMotor.cpp:142 elements/powerElement/Load.cpp:310
 #: elements/powerElement/SyncGenerator.cpp:230
 #: elements/powerElement/SyncMotor.cpp:169
 msgid " W"
-msgstr ""
+msgstr " W"
 
 #: elements/powerElement/IndMotor.cpp:145 elements/powerElement/Load.cpp:313
 #: elements/powerElement/SyncGenerator.cpp:233
 #: elements/powerElement/SyncMotor.cpp:172
 msgid " kW"
-msgstr ""
+msgstr " kW"
 
 #: elements/powerElement/IndMotor.cpp:148 elements/powerElement/Load.cpp:316
 #: elements/powerElement/SyncGenerator.cpp:236
 #: elements/powerElement/SyncMotor.cpp:175
 msgid " MW"
-msgstr ""
+msgstr " MW"
 
 #: elements/powerElement/IndMotor.cpp:286
 #: elements/powerElement/SyncGenerator.cpp:276 forms/IOControlForm.cpp:32
 msgid "Terminal voltage"
-msgstr ""
+msgstr "端电压"
 
 #: elements/powerElement/IndMotor.cpp:289 elements/powerElement/Load.cpp:360
 #: forms/ElementFormBase.cpp:4223 forms/HarmCurrentForm.cpp:10
 #: forms/HarmCurrentForm.cpp:161 forms/TextForm.cpp:903 forms/TextForm.cpp:914
 msgid "Current"
-msgstr ""
+msgstr "电流"
 
 #: elements/powerElement/IndMotor.cpp:290
 msgid "Electrical torque"
-msgstr ""
+msgstr "电磁转矩"
 
 #: elements/powerElement/IndMotor.cpp:291
 msgid "Mechanical torque"
-msgstr ""
+msgstr "机械转矩"
 
 #: elements/powerElement/IndMotor.cpp:292
 msgid "Speed"
-msgstr ""
+msgstr "转速"
 
 #: elements/powerElement/Inductor.cpp:207
 msgid "Edit Inductor"
-msgstr ""
+msgstr "编辑电抗器"
 
 #: elements/powerElement/Line.cpp:232 elements/powerElement/Line.cpp:493
 msgid ""
 "Unable to connect two buses with different nominal voltages.\n"
 "Use a transformer or edit the bus properties."
 msgstr ""
+"无法连接额定电压不同的两个母线。\n"
+"请使用变压器或编辑母线属性。"
 
 #: elements/powerElement/Line.cpp:358
 msgid "Edit line"
-msgstr ""
+msgstr "编辑线路"
 
 #: elements/powerElement/Line.cpp:375 elements/powerElement/Line.cpp:376
 #: elements/powerElement/Transformer.cpp:372
 #: elements/powerElement/Transformer.cpp:373
 msgid "Active power ("
-msgstr ""
+msgstr "有功功率 ("
 
 #: elements/powerElement/Line.cpp:375 elements/powerElement/Line.cpp:376
 #: elements/powerElement/Line.cpp:377 elements/powerElement/Line.cpp:378
@@ -1532,38 +1573,39 @@ msgstr ""
 #: elements/powerElement/Transformer.cpp:379
 #: elements/powerElement/Transformer.cpp:380
 msgid " to "
-msgstr ""
+msgstr " 至 "
 
 #: elements/powerElement/Line.cpp:377 elements/powerElement/Line.cpp:378
 #: elements/powerElement/Transformer.cpp:374
 #: elements/powerElement/Transformer.cpp:375
 msgid "Reactive power ("
-msgstr ""
+msgstr "无功功率 ("
 
-#: elements/powerElement/Line.cpp:379 elements/powerElement/Transformer.cpp:376
-#: forms/TextForm.cpp:902 forms/TextForm.cpp:913
+#: elements/powerElement/Line.cpp:379
+#: elements/powerElement/Transformer.cpp:376 forms/TextForm.cpp:902
+#: forms/TextForm.cpp:913
 msgid "Losses"
-msgstr ""
+msgstr "损耗"
 
 #: elements/powerElement/Line.cpp:380 elements/powerElement/Line.cpp:381
 #: elements/powerElement/Transformer.cpp:377
 #: elements/powerElement/Transformer.cpp:378
 msgid "Current ("
-msgstr ""
+msgstr "电流 ("
 
 #: elements/powerElement/Line.cpp:382 elements/powerElement/Line.cpp:383
 #: elements/powerElement/Transformer.cpp:379
 #: elements/powerElement/Transformer.cpp:380
 msgid "Fault current ("
-msgstr ""
+msgstr "故障电流 ("
 
 #: elements/powerElement/Line.cpp:388
 msgid "Insert node"
-msgstr ""
+msgstr "插入节点"
 
 #: elements/powerElement/Line.cpp:394
 msgid "Remove node"
-msgstr ""
+msgstr "删除节点"
 
 #: elements/powerElement/Line.cpp:612 elements/powerElement/Line.cpp:616
 #: elements/powerElement/Transformer.cpp:559
@@ -1572,6 +1614,8 @@ msgid ""
 "\n"
 "P"
 msgstr ""
+"\n"
+"P"
 
 #: elements/powerElement/Line.cpp:614 elements/powerElement/Line.cpp:618
 #: elements/powerElement/Transformer.cpp:561
@@ -1580,13 +1624,19 @@ msgid ""
 "\n"
 "Q"
 msgstr ""
+"\n"
+"Q"
 
-#: elements/powerElement/Line.cpp:622 elements/powerElement/Transformer.cpp:569
+#: elements/powerElement/Line.cpp:622
+#: elements/powerElement/Transformer.cpp:569
 msgid ""
 "\n"
 "\n"
 "Harmonic currents:"
 msgstr ""
+"\n"
+"\n"
+"谐波电流:"
 
 #: elements/powerElement/Line.cpp:627 elements/powerElement/Line.cpp:628
 #: elements/powerElement/Transformer.cpp:574
@@ -1596,365 +1646,366 @@ msgid ""
 "\n"
 "Ih(%d)(%d-%d) = %.5e%s%.2f%s p.u."
 msgstr ""
+"\n"
+"Ih(%d)(%d-%d) = %.5e%s%.2f%s p.u."
 
 #: elements/powerElement/Load.cpp:214
 msgid "Edit Load"
-msgstr ""
+msgstr "编辑负荷"
 
 #: elements/powerElement/SyncGenerator.cpp:83
 msgid "Edit Generator"
-msgstr ""
+msgstr "编辑发电机"
 
 #: elements/powerElement/SyncGenerator.cpp:102 forms/ElementFormBase.cpp:3087
 #: forms/ElementFormBase.h:249 forms/ImportForm.cpp:182
 #: forms/ImportForm.cpp:484
 msgid "Generator"
-msgstr ""
+msgstr "发电机"
 
 #: elements/powerElement/SyncGenerator.cpp:279 forms/IOControlForm.cpp:57
 msgid "Mechanical power"
-msgstr ""
+msgstr "机械功率"
 
 #: elements/powerElement/SyncGenerator.cpp:281 forms/IOControlForm.cpp:52
 msgid "Field voltage"
-msgstr ""
+msgstr "励磁电压"
 
 #: elements/powerElement/SyncMotor.cpp:41
 msgid "Edit Synchronous Condenser"
-msgstr ""
+msgstr "编辑同步调相机"
 
 #: elements/powerElement/SyncMotor.cpp:59
 msgid "Synchronous Condenser"
-msgstr ""
+msgstr "同步调相机"
 
 #: elements/powerElement/Transformer.cpp:355
 msgid "Edit tranformer"
-msgstr ""
+msgstr "编辑变压器"
 
 #: forms/AboutForm.cpp:42
 msgid "Developers"
-msgstr ""
+msgstr "开发者"
 
 #: forms/AboutForm.cpp:47
 msgid "Main developer and project admin"
-msgstr ""
+msgstr "主要开发者与项目负责人"
 
 #: forms/AboutForm.cpp:52
 msgid "Contributors / Special Thanks"
-msgstr ""
+msgstr "贡献者 / 特别鸣谢"
 
 #: forms/AboutForm.cpp:58
 msgid "Chief advisor"
-msgstr ""
+msgstr "首席顾问"
 
 #: forms/BusForm.cpp:23 forms/ElementFormBase.cpp:151
 msgid "Three-phase"
-msgstr ""
+msgstr "三相"
 
 #: forms/BusForm.cpp:24 forms/ElementFormBase.cpp:152
 msgid "Line-to-line"
-msgstr ""
+msgstr "线电压（相间）"
 
 #: forms/BusForm.cpp:25 forms/ElementFormBase.cpp:153
 msgid "Double line-to-ground"
-msgstr ""
+msgstr "两相接地"
 
 #: forms/BusForm.cpp:26 forms/ElementFormBase.cpp:154
 msgid "Line-to-ground"
-msgstr ""
+msgstr "单相接地"
 
 #: forms/BusForm.cpp:100
 msgid "Value entered incorrectly in the field \"Rated voltage\"."
-msgstr ""
+msgstr "“额定电压”字段输入有误。"
 
 #: forms/BusForm.cpp:106
 msgid "Value entered incorrectly in the field \"Controlled voltage\"."
-msgstr ""
+msgstr "“受控电压”字段输入有误。"
 
 #: forms/BusForm.cpp:141
 msgid "Value entered incorrectly in the field \"Fault resistance\"."
-msgstr ""
+msgstr "“故障电阻”字段输入有误。"
 
 #: forms/BusForm.cpp:145
 msgid "Value entered incorrectly in the field \"Fault reactance\"."
-msgstr ""
+msgstr "“故障电抗”字段输入有误。"
 
 #: forms/BusForm.cpp:152
 msgid "Value entered incorrectly in the field \"Time\"."
-msgstr ""
+msgstr "“时间”字段输入有误。"
 
 #: forms/BusForm.cpp:156
 msgid "Value entered incorrectly in the field \"Fault lenght\"."
-msgstr ""
+msgstr "“故障长度”字段输入有误。"
 
 #: forms/BusForm.cpp:160
-msgid ""
-"Value entered incorrectly in the field \"Fault resistence (stability)\"."
-msgstr ""
+msgid "Value entered incorrectly in the field \"Fault resistence (stability)\"."
+msgstr "“故障电阻（稳定性）”字段输入有误。"
 
 #: forms/BusForm.cpp:164
 msgid "Value entered incorrectly in the field \"Fault reactance (stability)\"."
-msgstr ""
+msgstr "“故障电抗（稳定性）”字段输入有误。"
 
 #: forms/BusForm.cpp:230
 msgid "Lines AB"
-msgstr ""
+msgstr "AB 相线"
 
 #: forms/BusForm.cpp:231
 msgid "Lines BC"
-msgstr ""
+msgstr "BC 相线"
 
 #: forms/BusForm.cpp:232
 msgid "Lines CA"
-msgstr ""
+msgstr "CA 相线"
 
 #: forms/BusForm.cpp:237 forms/ElementFormBase.cpp:169
 msgid "Line A"
-msgstr ""
+msgstr "A 相线"
 
 #: forms/BusForm.cpp:238 forms/ElementFormBase.cpp:170
 msgid "Line B"
-msgstr ""
+msgstr "B 相线"
 
 #: forms/BusForm.cpp:239 forms/ElementFormBase.cpp:171
 msgid "Line C"
-msgstr ""
+msgstr "C 相线"
 
 #: forms/BusForm.cpp:246 forms/ElementFormBase.cpp:87 forms/TextForm.cpp:984
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #: forms/BusForm.cpp:249 forms/ElementFormBase.cpp:88
 #: forms/ElementFormBase.cpp:116 forms/TextForm.cpp:985
 msgid "kV"
-msgstr ""
+msgstr "kV"
 
 #: forms/ConstantForm.cpp:41
 msgid "Value entered incorrectly in the field \"Constant value\"."
-msgstr ""
+msgstr "“常数值”字段输入有误。"
 
 #: forms/DataReport.cpp:266 utils/HMPlane.cpp:212
 msgid "Voltage (p.u.)"
-msgstr ""
+msgstr "电压 (p.u.)"
 
 #: forms/DataReport.cpp:267
 msgid "Voltage (V)"
-msgstr ""
+msgstr "电压 (V)"
 
 #: forms/DataReport.cpp:268
 msgid "Voltage (kV)"
-msgstr ""
+msgstr "电压 (kV)"
 
 #: forms/DataReport.cpp:270
 msgid "Phase Voltage (p.u.)"
-msgstr ""
+msgstr "相电压 (p.u.)"
 
 #: forms/DataReport.cpp:271
 msgid "Phase Voltage (V)"
-msgstr ""
+msgstr "相电压 (V)"
 
 #: forms/DataReport.cpp:272
 msgid "Phase Voltage (kV)"
-msgstr ""
+msgstr "相电压 (kV)"
 
 #: forms/DataReport.cpp:274
 msgid "Active Power (p.u.)"
-msgstr ""
+msgstr "有功功率 (p.u.)"
 
 #: forms/DataReport.cpp:275
 msgid "Active Power (W)"
-msgstr ""
+msgstr "有功功率 (W)"
 
 #: forms/DataReport.cpp:276
 msgid "Active Power (kW)"
-msgstr ""
+msgstr "有功功率 (kW)"
 
 #: forms/DataReport.cpp:277
 msgid "Active Power (MW)"
-msgstr ""
+msgstr "有功功率 (MW)"
 
 #: forms/DataReport.cpp:279
 msgid "Reactive Power (p.u.)"
-msgstr ""
+msgstr "无功功率 (p.u.)"
 
 #: forms/DataReport.cpp:280
 msgid "Reactive Power (var)"
-msgstr ""
+msgstr "无功功率 (var)"
 
 #: forms/DataReport.cpp:281
 msgid "Reactive Power (kvar)"
-msgstr ""
+msgstr "无功功率 (kvar)"
 
 #: forms/DataReport.cpp:282
 msgid "Reactive Power (Mvar)"
-msgstr ""
+msgstr "无功功率 (Mvar)"
 
 #: forms/DataReport.cpp:284
 msgid "R (p.u.)"
-msgstr ""
+msgstr "R (p.u.)"
 
 #: forms/DataReport.cpp:285
 msgid "R ("
-msgstr ""
+msgstr "R ("
 
 #: forms/DataReport.cpp:287
 msgid "XL (p.u.)"
-msgstr ""
+msgstr "XL (p.u.)"
 
 #: forms/DataReport.cpp:288
 msgid "XL ("
-msgstr ""
+msgstr "XL ("
 
 #: forms/DataReport.cpp:290
 msgid "B (p.u.)"
-msgstr ""
+msgstr "B (p.u.)"
 
 #: forms/DataReport.cpp:291
 msgid "B (S)"
-msgstr ""
+msgstr "B (S)"
 
 #: forms/DataReport.cpp:293
 msgid "Current (p.u.)"
-msgstr ""
+msgstr "电流 (p.u.)"
 
 #: forms/DataReport.cpp:294
 msgid "Current (A)"
-msgstr ""
+msgstr "电流 (A)"
 
 #: forms/DataReport.cpp:295
 msgid "Current (kA)"
-msgstr ""
+msgstr "电流 (kA)"
 
 #: forms/DataReport.cpp:300 forms/DataReport.cpp:322 forms/DataReport.cpp:367
 #: forms/DataReport.cpp:417
 msgid "From"
-msgstr ""
+msgstr "从"
 
 #: forms/DataReport.cpp:301 forms/DataReport.cpp:323 forms/DataReport.cpp:368
 #: forms/DataReport.cpp:418
 msgid "To"
-msgstr ""
+msgstr "至"
 
 #: forms/DataReport.cpp:306 forms/DataReport.cpp:332 forms/DataReport.cpp:372
 #: forms/DataReport.cpp:423
 msgid "Online"
-msgstr ""
+msgstr "在线"
 
 #: forms/DataReport.cpp:330
 msgid "TAP"
-msgstr ""
+msgstr "分接头"
 
 #: forms/DataReport.cpp:331
 msgid "Phase Shift"
-msgstr ""
+msgstr "相移"
 
 #: forms/DataReport.cpp:335
 msgid "Fault bus name"
-msgstr ""
+msgstr "故障母线名称"
 
 #: forms/DataReport.cpp:336 forms/DataReport.cpp:351 forms/DataReport.cpp:369
 #: forms/DataReport.cpp:385
 msgid "Phase A"
-msgstr ""
+msgstr "A 相"
 
 #: forms/DataReport.cpp:337 forms/DataReport.cpp:352 forms/DataReport.cpp:370
 #: forms/DataReport.cpp:386
 msgid "Phase B"
-msgstr ""
+msgstr "B 相"
 
 #: forms/DataReport.cpp:338 forms/DataReport.cpp:353 forms/DataReport.cpp:371
 #: forms/DataReport.cpp:387
 msgid "Phase C"
-msgstr ""
+msgstr "C 相"
 
 #: forms/DataReport.cpp:401 forms/DataReport.cpp:409 forms/DataReport.cpp:419
 msgid "Harmonic"
-msgstr ""
+msgstr "谐波"
 
 #: forms/DataReport.cpp:408
 msgid "THD"
-msgstr ""
+msgstr "THD"
 
 #: forms/DataReport.cpp:479 forms/DataReport.cpp:525 forms/DataReport.cpp:633
 #: forms/DataReport.cpp:683 forms/DataReport.cpp:838 forms/DataReport.cpp:946
 #: forms/DataReport.cpp:1191 forms/DataReport.cpp:1259
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: forms/DataReport.cpp:482 forms/DataReport.cpp:528 forms/DataReport.cpp:636
 #: forms/DataReport.cpp:686 forms/DataReport.cpp:841 forms/DataReport.cpp:949
 #: forms/DataReport.cpp:1194 forms/DataReport.cpp:1262
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: forms/DataReport.cpp:596
 msgid "Slack"
-msgstr ""
+msgstr "平衡节点"
 
 #: forms/DataReport.cpp:599
 msgid "PV"
-msgstr ""
+msgstr "PV"
 
 #: forms/DataReport.cpp:602
 msgid "PQ"
-msgstr ""
+msgstr "PQ"
 
 #: forms/DataReportBase.cpp:84
 msgid "Power flow data"
-msgstr ""
+msgstr "潮流数据"
 
 #: forms/DataReportBase.cpp:95 forms/PropertiesFormBase.cpp:246
 msgid "Power flow"
-msgstr ""
+msgstr "潮流"
 
 #: forms/DataReportBase.cpp:112 forms/DataReportBase.cpp:174
 msgid "Buses"
-msgstr ""
+msgstr "母线"
 
 #: forms/DataReportBase.cpp:129 forms/DataReportBase.cpp:191
 msgid "Branches"
-msgstr ""
+msgstr "支路"
 
 #: forms/DataReportBase.cpp:146
 msgid "Fault data"
-msgstr ""
+msgstr "故障数据"
 
 #: forms/DataReportBase.cpp:208
 msgid "Generators"
-msgstr ""
+msgstr "发电机"
 
 #: forms/DataReportBase.cpp:225
 msgid "Harmonics data"
-msgstr ""
+msgstr "谐波数据"
 
 #: forms/DataReportBase.cpp:236
 msgid "Sources"
-msgstr ""
+msgstr "电源"
 
 #: forms/DataReportBase.cpp:253
 msgid "Voltages"
-msgstr ""
+msgstr "电压"
 
 #: forms/DataReportBase.cpp:270
 msgid "Currents"
-msgstr ""
+msgstr "电流"
 
 #: forms/DataReportBase.h:120
 msgid "Data report"
-msgstr ""
+msgstr "数据报表"
 
 #: forms/DataReportBase.h:137
 msgid "Stability event list"
-msgstr ""
+msgstr "稳定性事件列表"
 
 #: forms/ElementFormBase.cpp:71 forms/ElementFormBase.cpp:1366
 #: forms/ElementFormBase.cpp:1677
 msgid "Rated voltage"
-msgstr ""
+msgstr "额定电压"
 
 #: forms/ElementFormBase.cpp:98
 msgid "Controlled voltage"
-msgstr ""
+msgstr "受控电压"
 
 #: forms/ElementFormBase.cpp:115 forms/ElementFormBase.cpp:196
 #: forms/ElementFormBase.cpp:219 forms/ElementFormBase.cpp:308
@@ -1979,444 +2030,444 @@ msgstr ""
 #: forms/TextForm.cpp:983 forms/TextForm.cpp:993 forms/TextForm.cpp:998
 #: forms/TextForm.cpp:1006 forms/TextForm.cpp:1014
 msgid "p.u."
-msgstr ""
+msgstr "p.u."
 
 #: forms/ElementFormBase.cpp:122
 msgid "Slack Bus"
-msgstr ""
+msgstr "平衡母线"
 
 #: forms/ElementFormBase.cpp:133 forms/ElementFormBase.cpp:234
 msgid "Insert fault in the bus"
-msgstr ""
+msgstr "在母线中设置故障"
 
 #: forms/ElementFormBase.cpp:146
 msgid "Fault type"
-msgstr ""
+msgstr "故障类型"
 
 #: forms/ElementFormBase.cpp:164
 msgid "Fault place"
-msgstr ""
+msgstr "故障位置"
 
 #: forms/ElementFormBase.cpp:181 forms/ElementFormBase.cpp:293
 msgid "Fault resistance (R)"
-msgstr ""
+msgstr "故障电阻 (R)"
 
 #: forms/ElementFormBase.cpp:204 forms/ElementFormBase.cpp:316
 msgid "Fault reactance (Xl)"
-msgstr ""
+msgstr "故障电抗 (Xl)"
 
 #: forms/ElementFormBase.cpp:224 forms/ElementFormBase.cpp:745
 #: forms/ElementFormBase.cpp:1580 forms/ElementFormBase.cpp:1978
 #: forms/ElementFormBase.cpp:2142 forms/ElementFormBase.cpp:2439
 #: forms/ElementFormBase.cpp:2758 forms/PropertiesFormBase.cpp:374
 msgid "Stability"
-msgstr ""
+msgstr "稳定性"
 
 #: forms/ElementFormBase.cpp:229
 msgid "Plot bus data"
-msgstr ""
+msgstr "绘制母线数据"
 
 #: forms/ElementFormBase.cpp:270
 msgid "Fault length"
-msgstr ""
+msgstr "故障距离"
 
 #: forms/ElementFormBase.cpp:336
 msgid "Power Quality"
-msgstr ""
+msgstr "电能质量"
 
 #: forms/ElementFormBase.cpp:341
 msgid "Plot harmonic bus impedance"
-msgstr ""
+msgstr "绘制母线谐波阻抗"
 
 #: forms/ElementFormBase.cpp:449 forms/ElementFormBase.cpp:1381
 #: forms/ElementFormBase.cpp:1708 forms/ElementFormBase.cpp:2663
 msgid "Rated power"
-msgstr ""
+msgstr "额定功率"
 
 #: forms/ElementFormBase.cpp:465 forms/ElementFormBase.cpp:1397
 #: forms/ElementFormBase.cpp:1724 forms/ElementFormBase.cpp:2679
 #: forms/PropertiesFormBase.cpp:195 forms/TextForm.cpp:999
 msgid "VA"
-msgstr ""
+msgstr "VA"
 
 #: forms/ElementFormBase.cpp:466 forms/ElementFormBase.cpp:1398
 #: forms/ElementFormBase.cpp:1725 forms/ElementFormBase.cpp:2680
 #: forms/PropertiesFormBase.cpp:196 forms/TextForm.cpp:1000
 msgid "kVA"
-msgstr ""
+msgstr "kVA"
 
 #: forms/ElementFormBase.cpp:467 forms/ElementFormBase.cpp:1399
 #: forms/ElementFormBase.cpp:1726 forms/ElementFormBase.cpp:2681
 #: forms/PropertiesFormBase.cpp:197 forms/TextForm.cpp:1001
 msgid "MVA"
-msgstr ""
+msgstr "MVA"
 
 #: forms/ElementFormBase.cpp:496 forms/ElementFormBase.cpp:2092
 #: forms/ElementFormBase.cpp:2710 forms/TextForm.cpp:1007
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: forms/ElementFormBase.cpp:497 forms/ElementFormBase.cpp:2093
 #: forms/ElementFormBase.cpp:2711 forms/TextForm.cpp:1008
 msgid "kW"
-msgstr ""
+msgstr "kW"
 
 #: forms/ElementFormBase.cpp:498 forms/ElementFormBase.cpp:2094
 #: forms/ElementFormBase.cpp:2712 forms/TextForm.cpp:1009
 msgid "MW"
-msgstr ""
+msgstr "MW"
 
 #: forms/ElementFormBase.cpp:525 forms/ElementFormBase.cpp:555
 #: forms/ElementFormBase.cpp:585 forms/ElementFormBase.cpp:2121
 #: forms/ElementFormBase.cpp:2427 forms/ElementFormBase.cpp:2739
 #: forms/TextForm.cpp:1015
 msgid "VAr"
-msgstr ""
+msgstr "VAr"
 
 #: forms/ElementFormBase.cpp:526 forms/ElementFormBase.cpp:556
 #: forms/ElementFormBase.cpp:586 forms/ElementFormBase.cpp:2122
 #: forms/ElementFormBase.cpp:2428 forms/ElementFormBase.cpp:2740
 #: forms/TextForm.cpp:1016
 msgid "kVAr"
-msgstr ""
+msgstr "kVAr"
 
 #: forms/ElementFormBase.cpp:527 forms/ElementFormBase.cpp:557
 #: forms/ElementFormBase.cpp:587 forms/ElementFormBase.cpp:2123
 #: forms/ElementFormBase.cpp:2429 forms/ElementFormBase.cpp:2741
 #: forms/TextForm.cpp:1017
 msgid "MVAr"
-msgstr ""
+msgstr "MVAr"
 
 #: forms/ElementFormBase.cpp:537
 msgid "Max reactive power"
-msgstr ""
+msgstr "最大无功功率"
 
 #: forms/ElementFormBase.cpp:567
 msgid "Min reactive power"
-msgstr ""
+msgstr "最小无功功率"
 
 #: forms/ElementFormBase.cpp:593 forms/ElementFormBase.cpp:2752
 msgid "Use machine rated power as base"
-msgstr ""
+msgstr "以电机额定功率为基准"
 
 #: forms/ElementFormBase.cpp:604
 msgid "Sequence impedances (p.u.)"
-msgstr ""
+msgstr "序阻抗 (p.u.)"
 
 #: forms/ElementFormBase.cpp:616
 msgid "Positive resistance (R1)"
-msgstr ""
+msgstr "正序电阻 (R1)"
 
 #: forms/ElementFormBase.cpp:631
 msgid "Positive reactance (X1)"
-msgstr ""
+msgstr "正序电抗 (X1)"
 
 #: forms/ElementFormBase.cpp:646
 msgid "Negative resistance (R2)"
-msgstr ""
+msgstr "负序电阻 (R2)"
 
 #: forms/ElementFormBase.cpp:661
 msgid "Negative reactance (X2)"
-msgstr ""
+msgstr "负序电抗 (X2)"
 
 #: forms/ElementFormBase.cpp:676
 msgid "Zero resistance (R0)"
-msgstr ""
+msgstr "零序电阻 (R0)"
 
 #: forms/ElementFormBase.cpp:691
 msgid "Zero reactance (X0)"
-msgstr ""
+msgstr "零序电抗 (X0)"
 
 #: forms/ElementFormBase.cpp:710
 msgid "Ground resistance (p.u.)"
-msgstr ""
+msgstr "接地电阻 (p.u.)"
 
 #: forms/ElementFormBase.cpp:725
 msgid "Ground reactance (p.u.)"
-msgstr ""
+msgstr "接地电抗 (p.u.)"
 
 #: forms/ElementFormBase.cpp:736
 msgid "Grounded neutral"
-msgstr ""
+msgstr "中性点接地"
 
 #: forms/ElementFormBase.cpp:819
 msgid "Plot synchronous machine data"
-msgstr ""
+msgstr "绘制同步电机数据"
 
 #: forms/ElementFormBase.cpp:832
 msgid "Inertia (H)"
-msgstr ""
+msgstr "惯性常数 (H)"
 
 #: forms/ElementFormBase.cpp:855
 msgid "Damping factor"
-msgstr ""
+msgstr "阻尼系数"
 
 #: forms/ElementFormBase.cpp:878
 msgid "Use AVR"
-msgstr ""
+msgstr "使用自动电压调节器"
 
 #: forms/ElementFormBase.cpp:883
 msgid "Edit AVR"
-msgstr ""
+msgstr "编辑自动电压调节器"
 
 #: forms/ElementFormBase.cpp:891
 msgid "Use speed governor"
-msgstr ""
+msgstr "使用调速器"
 
 #: forms/ElementFormBase.cpp:896
 msgid "Edit speed governor"
-msgstr ""
+msgstr "编辑调速器"
 
 #: forms/ElementFormBase.cpp:912
 msgid "Armature resistance (Ra)"
-msgstr ""
+msgstr "电枢电阻 (Ra)"
 
 #: forms/ElementFormBase.cpp:935
 msgid "Potier reactance (Xp)"
-msgstr ""
+msgstr "保梯电抗 (Xp)"
 
 #: forms/ElementFormBase.cpp:958
 msgid "Saturation factor"
-msgstr ""
+msgstr "饱和系数"
 
 #: forms/ElementFormBase.cpp:981
 msgid "Open-circuit Frequency"
-msgstr ""
+msgstr "开路频率"
 
 #: forms/ElementFormBase.cpp:996 forms/PropertiesFormBase.cpp:222
 #: forms/PropertiesFormBase.cpp:1128 forms/PropertiesFormBase.cpp:1151
 #: forms/PropertiesFormBase.cpp:1174
 msgid "Hz"
-msgstr ""
+msgstr "Hz"
 
 #: forms/ElementFormBase.cpp:1000
 msgid "Syncronous"
-msgstr ""
+msgstr "同步"
 
 #: forms/ElementFormBase.cpp:1012
 msgid "Direct-axis reactance (Xd)"
-msgstr ""
+msgstr "直轴电抗 (Xd)"
 
 #: forms/ElementFormBase.cpp:1035
 msgid "Quadrature-axis reactance (Xq)"
-msgstr ""
+msgstr "交轴电抗 (Xq)"
 
 #: forms/ElementFormBase.cpp:1054
 msgid "Transient"
-msgstr ""
+msgstr "暂态"
 
 #: forms/ElementFormBase.cpp:1066
 msgid "Direct-axis reactance (X'd)"
-msgstr ""
+msgstr "直轴暂态电抗 (X'd)"
 
 #: forms/ElementFormBase.cpp:1089
 msgid "Quadrature-axis reactance (X'q)"
-msgstr ""
+msgstr "交轴暂态电抗 (X'q)"
 
 #: forms/ElementFormBase.cpp:1112
 msgid "Direct-axis time constant (T'd0)"
-msgstr ""
+msgstr "直轴开路暂态时间常数 (T'd0)"
 
 #: forms/ElementFormBase.cpp:1135
 msgid "Quadrature-axis time constant (T'q0)"
-msgstr ""
+msgstr "交轴开路暂态时间常数 (T'q0)"
 
 #: forms/ElementFormBase.cpp:1154
 msgid "Sub-transient"
-msgstr ""
+msgstr "次暂态"
 
 #: forms/ElementFormBase.cpp:1166
 msgid "Direct-axis reactance (X''d)"
-msgstr ""
+msgstr "直轴次暂态电抗 (X''d)"
 
 #: forms/ElementFormBase.cpp:1189
 msgid "Quadrature-axis reactance (X''q)"
-msgstr ""
+msgstr "交轴次暂态电抗 (X''q)"
 
 #: forms/ElementFormBase.cpp:1212
 msgid "Direct-axis time constant (T''d0)"
-msgstr ""
+msgstr "直轴开路次暂态时间常数 (T''d0)"
 
 #: forms/ElementFormBase.cpp:1235
 msgid "Quadrature-axis time constant (T''q0)"
-msgstr ""
+msgstr "交轴开路次暂态时间常数 (T''q0)"
 
 #: forms/ElementFormBase.cpp:1270 forms/ElementFormBase.cpp:2311
 #: forms/ElementFormBase.cpp:2992 forms/ElementFormBase.h:724
 #: forms/ElementFormBase.h:1203 forms/StabilityEventList.cpp:153
 #: forms/StabilityEventList.cpp:155
 msgid "Switching"
-msgstr ""
+msgstr "投切"
 
 #: forms/ElementFormBase.cpp:1370 forms/ElementFormBase.cpp:1697
 #: forms/ElementFormBase.cpp:1698
 msgid "138 kV"
-msgstr ""
+msgstr "138 kV"
 
 #: forms/ElementFormBase.cpp:1409 forms/ElementFormBase.cpp:1738
 msgid "Resistance (R)"
-msgstr ""
+msgstr "电阻 (R)"
 
 #: forms/ElementFormBase.cpp:1426 forms/ElementFormBase.cpp:1454
 #: forms/ElementFormBase.cpp:1755 forms/ElementFormBase.cpp:1782
 msgid "Ohm"
-msgstr ""
+msgstr "欧姆"
 
 #: forms/ElementFormBase.cpp:1427 forms/ElementFormBase.cpp:1455
 msgid "Ohm/km"
-msgstr ""
+msgstr "欧姆/千米"
 
 #: forms/ElementFormBase.cpp:1437 forms/ElementFormBase.cpp:1765
 msgid "Indutive reactance (XL)"
-msgstr ""
+msgstr "感抗 (XL)"
 
 #: forms/ElementFormBase.cpp:1465
 msgid "Capacitive susceptance (B)"
-msgstr ""
+msgstr "容纳 (B)"
 
 #: forms/ElementFormBase.cpp:1482
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: forms/ElementFormBase.cpp:1483
 msgid "S/km"
-msgstr ""
+msgstr "S/千米"
 
 #: forms/ElementFormBase.cpp:1493
 msgid "Line size"
-msgstr ""
+msgstr "导线截面"
 
 #: forms/ElementFormBase.cpp:1508
 msgid "km"
-msgstr ""
+msgstr "千米"
 
 #: forms/ElementFormBase.cpp:1512
 msgid "Use line rated power as base"
-msgstr ""
+msgstr "以线路额定功率为基准"
 
 #: forms/ElementFormBase.cpp:1523 forms/ElementFormBase.cpp:1868
 msgid "Zero-sequence impedances (p.u.)"
-msgstr ""
+msgstr "零序阻抗 (p.u.)"
 
 #: forms/ElementFormBase.cpp:1535 forms/ElementFormBase.cpp:1880
 msgid "Resistance (R0)"
-msgstr ""
+msgstr "电阻 (R0)"
 
 #: forms/ElementFormBase.cpp:1550 forms/ElementFormBase.cpp:1895
 msgid "Indutive reactance (X0)"
-msgstr ""
+msgstr "感抗 (X0)"
 
 #: forms/ElementFormBase.cpp:1565
 msgid "Capacitive susceptance (B0)"
-msgstr ""
+msgstr "容纳 (B0)"
 
 #: forms/ElementFormBase.cpp:1681
 msgid "138 kV / 138 kV"
-msgstr ""
+msgstr "138 kV / 138 kV"
 
 #: forms/ElementFormBase.cpp:1692
 msgid "Base voltage"
-msgstr ""
+msgstr "基准电压"
 
 #: forms/ElementFormBase.cpp:1796
 msgid "Connection"
-msgstr ""
+msgstr "连接方式"
 
 #: forms/ElementFormBase.cpp:1801 forms/TransformerForm.cpp:28
 msgid "Grounded Wye - Grounded Wye"
-msgstr ""
+msgstr "接地星形 - 接地星形"
 
 #: forms/ElementFormBase.cpp:1802 forms/TransformerForm.cpp:29
 msgid "Wye - Grounded Wye"
-msgstr ""
+msgstr "星形 - 接地星形"
 
 #: forms/ElementFormBase.cpp:1803 forms/TransformerForm.cpp:30
 msgid "Grounded Wye - Wye"
-msgstr ""
+msgstr "接地星形 - 星形"
 
 #: forms/ElementFormBase.cpp:1804 forms/TransformerForm.cpp:31
 msgid "Wye - Wye"
-msgstr ""
+msgstr "星形 - 星形"
 
 #: forms/ElementFormBase.cpp:1805 forms/TransformerForm.cpp:32
 msgid "Delta - Grounded Wye"
-msgstr ""
+msgstr "三角形 - 接地星形"
 
 #: forms/ElementFormBase.cpp:1806 forms/TransformerForm.cpp:33
 msgid "Delta - Wye"
-msgstr ""
+msgstr "三角形 - 星形"
 
 #: forms/ElementFormBase.cpp:1807 forms/TransformerForm.cpp:34
 msgid "Grounded Wye - Delta"
-msgstr ""
+msgstr "接地星形 - 三角形"
 
 #: forms/ElementFormBase.cpp:1808 forms/TransformerForm.cpp:35
 msgid "Wye - Delta"
-msgstr ""
+msgstr "星形 - 三角形"
 
 #: forms/ElementFormBase.cpp:1809 forms/TransformerForm.cpp:36
 msgid "Delta - Delta"
-msgstr ""
+msgstr "三角形 - 三角形"
 
 #: forms/ElementFormBase.cpp:1823
 msgid "Turns ratio"
-msgstr ""
+msgstr "变比"
 
 #: forms/ElementFormBase.cpp:1838
 msgid "Phase shift"
-msgstr ""
+msgstr "相移"
 
 #: forms/ElementFormBase.cpp:1853 forms/PropertiesFormBase.cpp:337
 msgid "degrees"
-msgstr ""
+msgstr "度"
 
 #: forms/ElementFormBase.cpp:1857
 msgid "Use transformer rated power as base"
-msgstr ""
+msgstr "以变压器额定功率为基准"
 
 #: forms/ElementFormBase.cpp:1906
 msgid "Ground impedances (p.u.)"
-msgstr ""
+msgstr "接地阻抗 (p.u.)"
 
 #: forms/ElementFormBase.cpp:1918
 msgid "Primary resistance"
-msgstr ""
+msgstr "一次侧电阻"
 
 #: forms/ElementFormBase.cpp:1933
 msgid "Primary reactance"
-msgstr ""
+msgstr "一次侧电抗"
 
 #: forms/ElementFormBase.cpp:1948
 msgid "Secondary resistance"
-msgstr ""
+msgstr "二次侧电阻"
 
 #: forms/ElementFormBase.cpp:1963
 msgid "Secondary reactance"
-msgstr ""
+msgstr "二次侧电抗"
 
 #: forms/ElementFormBase.cpp:2129
 msgid "Load type (power flow)"
-msgstr ""
+msgstr "负荷类型（潮流）"
 
 #: forms/ElementFormBase.cpp:2134 forms/ElementFormBase.cpp:2215
 #: forms/ElementFormBase.cpp:2288 forms/PropertiesFormBase.cpp:571
 #: forms/PropertiesFormBase.cpp:644 forms/PropertiesFormBase.cpp:698
 msgid "Constant power"
-msgstr ""
+msgstr "恒功率"
 
 #: forms/ElementFormBase.cpp:2135 forms/ElementFormBase.cpp:2169
 #: forms/ElementFormBase.cpp:2242 forms/PropertiesFormBase.cpp:525
 #: forms/PropertiesFormBase.cpp:598
 msgid "Constant impedance"
-msgstr ""
+msgstr "恒阻抗"
 
 #: forms/ElementFormBase.cpp:2147
 msgid "Plot load data"
-msgstr ""
+msgstr "绘制负荷数据"
 
 #: forms/ElementFormBase.cpp:2152
 msgid "Use ZIP load composition"
-msgstr ""
+msgstr "使用 ZIP 负荷模型"
 
 #: forms/ElementFormBase.cpp:2184 forms/ElementFormBase.cpp:2207
 #: forms/ElementFormBase.cpp:2230 forms/ElementFormBase.cpp:2257
@@ -2426,1278 +2477,1284 @@ msgstr ""
 #: forms/PropertiesFormBase.cpp:636 forms/PropertiesFormBase.cpp:659
 #: forms/PropertiesFormBase.cpp:690 forms/PropertiesFormBase.cpp:713
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: forms/ElementFormBase.cpp:2192 forms/ElementFormBase.cpp:2265
 #: forms/PropertiesFormBase.cpp:548 forms/PropertiesFormBase.cpp:621
 #: forms/PropertiesFormBase.cpp:675
 msgid "Constant current"
-msgstr ""
+msgstr "恒电流"
 
 #: forms/ElementFormBase.cpp:2521
 msgid "Switching properties"
-msgstr ""
+msgstr "投切属性"
 
 #: forms/ElementFormBase.cpp:2526 forms/SwitchingForm.cpp:40
 #: forms/SwitchingForm.cpp:53 forms/SwitchingForm.cpp:69
 msgid "Insert"
-msgstr ""
+msgstr "插入"
 
 #: forms/ElementFormBase.cpp:2527 forms/ElementFormBase.cpp:2543
 #: forms/ElementFormBase.cpp:4245 forms/SwitchingForm.cpp:40
 #: forms/SwitchingForm.cpp:53
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: forms/ElementFormBase.cpp:2539 forms/ElementFormBase.cpp:4241
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #: forms/ElementFormBase.cpp:2551
 msgid "Down"
-msgstr ""
+msgstr "下移"
 
 #: forms/ElementFormBase.cpp:2559
 msgid "Switching list"
-msgstr ""
+msgstr "投切列表"
 
 #: forms/ElementFormBase.cpp:2747
 msgid "Calculate reactive power in load flow (using stability data)"
-msgstr ""
+msgstr "在潮流中计算无功功率（使用稳定性数据）"
 
 #: forms/ElementFormBase.cpp:2763
 msgid "Plot induction machine data"
-msgstr ""
+msgstr "绘制感应电机数据"
 
 #: forms/ElementFormBase.cpp:2776
 msgid "Inertia"
-msgstr ""
+msgstr "惯性"
 
 #: forms/ElementFormBase.cpp:2801
 msgid "Stator resistence"
-msgstr ""
+msgstr "定子电阻"
 
 #: forms/ElementFormBase.cpp:2824
 msgid "Stator reactance"
-msgstr ""
+msgstr "定子电抗"
 
 #: forms/ElementFormBase.cpp:2847
 msgid "Rotor resistence"
-msgstr ""
+msgstr "转子电阻"
 
 #: forms/ElementFormBase.cpp:2870
 msgid "Rotor reactance"
-msgstr ""
+msgstr "转子电抗"
 
 #: forms/ElementFormBase.cpp:2893
 msgid "Magnetizing reactance"
-msgstr ""
+msgstr "励磁电抗"
 
 #: forms/ElementFormBase.cpp:2916
 msgid "Use cage factor"
-msgstr ""
+msgstr "使用笼型系数"
 
 #: forms/ElementFormBase.cpp:2932
 msgid "Load characteristic"
-msgstr ""
+msgstr "负荷特性"
 
 #: forms/ElementFormBase.cpp:2952
 msgid "+"
-msgstr ""
+msgstr "+"
 
 #: forms/ElementFormBase.cpp:2968
 msgid "w +"
-msgstr ""
+msgstr "w +"
 
 #: forms/ElementFormBase.cpp:2984
 msgid "w2"
-msgstr ""
+msgstr "w2"
 
 #: forms/ElementFormBase.cpp:3081
 msgid "Element"
-msgstr ""
+msgstr "元件"
 
 #: forms/ElementFormBase.cpp:3103
 msgid "Element name"
-msgstr ""
+msgstr "元件名称"
 
 #: forms/ElementFormBase.cpp:3116
 msgid "Text type"
-msgstr ""
+msgstr "文本类型"
 
 #: forms/ElementFormBase.cpp:3129
 msgid "From bus"
-msgstr ""
+msgstr "起始母线"
 
 #: forms/ElementFormBase.cpp:3142
 msgid "To bus"
-msgstr ""
+msgstr "终止母线"
 
 #: forms/ElementFormBase.cpp:3155 forms/ElementFormBase.cpp:4230
 #: forms/HarmCurrentForm.cpp:11 forms/HarmCurrentForm.cpp:162
 msgid "Unit"
-msgstr ""
+msgstr "单位"
 
 #: forms/ElementFormBase.cpp:3168
 msgid "Decimal places:"
-msgstr ""
+msgstr "小数位数:"
 
 #: forms/ElementFormBase.cpp:3181
 msgid "Preview:"
-msgstr ""
+msgstr "预览:"
 
 #: forms/ElementFormBase.cpp:3281
 msgid "Numerator parameters"
-msgstr ""
+msgstr "分子参数"
 
 #: forms/ElementFormBase.cpp:3293
 msgid "Denominator parameters"
-msgstr ""
+msgstr "分母参数"
 
 #: forms/ElementFormBase.cpp:3380
 msgid "Signs"
-msgstr ""
+msgstr "符号"
 
 #: forms/ElementFormBase.cpp:3467 forms/ElementFormBase.cpp:3566
 msgid "Upper limit"
-msgstr ""
+msgstr "上限"
 
 #: forms/ElementFormBase.cpp:3479 forms/ElementFormBase.cpp:3578
 msgid "Lower limit"
-msgstr ""
+msgstr "下限"
 
 #: forms/ElementFormBase.cpp:3665
 msgid "y = A.eB.x"
-msgstr ""
+msgstr "y = A.eB.x"
 
 #: forms/ElementFormBase.cpp:3669
 msgid "A value"
-msgstr ""
+msgstr "A 值"
 
 #: forms/ElementFormBase.cpp:3681
 msgid "B value"
-msgstr ""
+msgstr "B 值"
 
 #: forms/ElementFormBase.cpp:3768
 msgid "Constant value"
-msgstr ""
+msgstr "常数值"
 
 #: forms/ElementFormBase.cpp:3855
 msgid "Gain value"
-msgstr ""
+msgstr "增益值"
 
 #: forms/ElementFormBase.cpp:4041
 msgid "Input variables (space separated)"
-msgstr ""
+msgstr "输入变量（空格分隔）"
 
 #: forms/ElementFormBase.cpp:4105
 msgid "No checks performed"
-msgstr ""
+msgstr "未执行检查"
 
 #: forms/ElementFormBase.cpp:4113
 msgid "Check expression"
-msgstr ""
+msgstr "检查表达式"
 
 #: forms/ElementFormBase.cpp:4217
 msgid "Harmonic Current properties"
-msgstr ""
+msgstr "谐波电流属性"
 
 #: forms/ElementFormBase.cpp:4220 forms/HarmCurrentForm.cpp:9
 #: forms/HarmCurrentForm.cpp:160
 msgid "Order"
-msgstr ""
+msgstr "次数"
 
 #: forms/ElementFormBase.cpp:4228 forms/HarmCurrentForm.cpp:19
 #: forms/HarmCurrentForm.cpp:88 forms/HarmCurrentForm.cpp:168
 #: forms/TextForm.cpp:994
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: forms/ElementFormBase.cpp:4233
 msgid "Angle (degrees)"
-msgstr ""
+msgstr "相角（度）"
 
 #: forms/ElementFormBase.cpp:4253
 msgid "Injected harmonic currents"
-msgstr ""
+msgstr "注入谐波电流"
 
 #: forms/ElementFormBase.h:382
 msgid "Generator: Stability"
-msgstr ""
+msgstr "发电机：稳定性"
 
 #: forms/ElementFormBase.h:683
 msgid "Reactive shunt element"
-msgstr ""
+msgstr "并联无功元件"
 
 #: forms/ElementFormBase.h:835 forms/ImportForm.cpp:345
 msgid "Motor"
-msgstr ""
+msgstr "电动机"
 
 #: forms/ElementFormBase.h:926
 msgid "Transfer function"
-msgstr ""
+msgstr "传递函数"
 
 #: forms/ElementFormBase.h:1128
 msgid "Input / Output"
-msgstr ""
+msgstr "输入 / 输出"
 
 #: forms/ElementFormBase.h:1164
 msgid "Math expression"
-msgstr ""
+msgstr "数学表达式"
 
 #: forms/ExponentialForm.cpp:56
 msgid "Value entered incorrectly in the field \"A value\"."
-msgstr ""
+msgstr "“A 值”字段输入有误。"
 
 #: forms/ExponentialForm.cpp:59
 msgid "Value entered incorrectly in the field \"B value\"."
-msgstr ""
+msgstr "“B 值”字段输入有误。"
 
 #: forms/FrequencyResponseForm.cpp:48
 msgid "Value entered incorrectly in the field \"Initial frequency\"."
-msgstr ""
+msgstr "“初始频率”字段输入有误。"
 
 #: forms/FrequencyResponseForm.cpp:51
 msgid "Value entered incorrectly in the field \"Final frequency\"."
-msgstr ""
+msgstr "“终止频率”字段输入有误。"
 
 #: forms/FrequencyResponseForm.cpp:54
 msgid "Value entered incorrectly in the field \"Frequency step\"."
-msgstr ""
+msgstr "“频率步长”字段输入有误。"
 
 #: forms/FrequencyResponseForm.cpp:57
 msgid "Injected current not selected"
-msgstr ""
+msgstr "未选择注入电流"
 
 #: forms/GainForm.cpp:41
 msgid "Value entered incorrectly in the field \"Gain value\"."
-msgstr ""
+msgstr "“增益值”字段输入有误。"
 
 #: forms/GeneralPropertiesForm.cpp:29 forms/PropertiesFormBase.cpp:60
 msgid "English"
-msgstr ""
+msgstr "英语"
 
 #: forms/GeneralPropertiesForm.cpp:30 forms/PropertiesFormBase.cpp:61
 msgid "Portuguese"
-msgstr ""
+msgstr "葡萄牙语"
 
 #: forms/GeneralPropertiesForm.cpp:32 forms/PropertiesFormBase.cpp:92
 msgid "Light"
-msgstr ""
+msgstr "浅色"
 
 #: forms/GeneralPropertiesForm.cpp:33 forms/PropertiesFormBase.cpp:93
 msgid "Dark"
-msgstr ""
+msgstr "深色"
 
 #: forms/GeneralPropertiesForm.cpp:38 forms/PropertiesFormBase.cpp:76
 msgid "Chart Director"
-msgstr ""
+msgstr "Chart Director"
 
 #: forms/GeneralPropertiesForm.cpp:39 forms/PropertiesFormBase.cpp:77
 msgid "wxMathPlot"
-msgstr ""
+msgstr "wxMathPlot"
 
 #: forms/GeneralPropertiesForm.cpp:92
 msgid ""
 "It was not possible to access the init file.\n"
 "The settings won't be applied."
 msgstr ""
+"无法访问初始化文件。\n"
+"设置将不会被应用。"
 
 #: forms/GeneralPropertiesForm.cpp:159
 msgid "The application must be restarted to settings changes be applied."
-msgstr ""
+msgstr "必须重启应用程序才能使设置更改生效。"
 
 #: forms/GeneratorStabForm.cpp:155
 msgid "Synchronous generator: Switching"
-msgstr ""
+msgstr "同步发电机：投切"
 
 #: forms/GeneratorStabForm.cpp:168 forms/IndMotorForm.cpp:185
 msgid "Value entered incorrectly in the field \"Inertia\"."
-msgstr ""
+msgstr "“惯性”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:172
 msgid "Value entered incorrectly in the field \"Damping factor\"."
-msgstr ""
+msgstr "“阻尼系数”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:179
 msgid "Value entered incorrectly in the field \"Armature resistance\"."
-msgstr ""
+msgstr "“电枢电阻”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:183
 msgid "Value entered incorrectly in the field \"Potier reactance\"."
-msgstr ""
+msgstr "“保梯电抗”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:187
 msgid "Value entered incorrectly in the field \"Saturation factor\"."
-msgstr ""
+msgstr "“饱和系数”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:191
 msgid "Value entered incorrectly in the field \"Open-circuit frequency\"."
-msgstr ""
+msgstr "“开路频率”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:195
 msgid ""
-"Value entered incorrectly in the field \"Synchronous direct-axis reactance\"."
-msgstr ""
+"Value entered incorrectly in the field \"Synchronous direct-axis "
+"reactance\"."
+msgstr "“同步直轴电抗”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:199
 msgid ""
 "Value entered incorrectly in the field \"Synchronous quadrature-axis "
 "reactance\"."
-msgstr ""
+msgstr "“同步交轴电抗”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:203
 msgid ""
 "Value entered incorrectly in the field \"Transitory direct-axis reactance\"."
-msgstr ""
+msgstr "“暂态直轴电抗”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:207
 msgid ""
 "Value entered incorrectly in the field \"Transitory quadrature-axis "
 "reactance\"."
-msgstr ""
+msgstr "“暂态交轴电抗”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:211
 msgid ""
 "Value entered incorrectly in the field \"Transitory direct-axis time "
 "constant\"."
-msgstr ""
+msgstr "“暂态直轴时间常数”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:215
 msgid ""
 "Value entered incorrectly in the field \"Transitory quadrature-axis time "
 "constant\"."
-msgstr ""
+msgstr "“暂态交轴时间常数”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:219
 msgid ""
 "Value entered incorrectly in the field \"Subtransitory direct-axis "
 "reactance\"."
-msgstr ""
+msgstr "“次暂态直轴电抗”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:223
 msgid ""
 "Value entered incorrectly in the field \"Subtransitory quadrature-axis "
 "reactance\"."
-msgstr ""
+msgstr "“次暂态交轴电抗”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:227
 msgid ""
 "Value entered incorrectly in the field \"Subtransitory direct-axis time "
 "constant\"."
-msgstr ""
+msgstr "“次暂态直轴时间常数”字段输入有误。"
 
 #: forms/GeneratorStabForm.cpp:231
 msgid ""
 "Value entered incorrectly in the field \"Subtransitory quadrature-axis time "
 "constant\"."
-msgstr ""
+msgstr "“次暂态交轴时间常数”字段输入有误。"
 
 #: forms/IOControlForm.cpp:63
 msgid "Initial mechanical power"
-msgstr ""
+msgstr "初始机械功率"
 
 #: forms/IOControlForm.cpp:69
 msgid "Initial terminal voltage"
-msgstr ""
+msgstr "初始端电压"
 
 #: forms/IOControlForm.cpp:76
 msgid "Initial velocity"
-msgstr ""
+msgstr "初始转速"
 
 #: forms/IOControlForm.cpp:82
 msgid "Velocity variation"
-msgstr ""
+msgstr "转速变化"
 
 #: forms/IOControlForm.cpp:88
 msgid "Active power variation"
-msgstr ""
+msgstr "有功功率变化"
 
 #: forms/ImportForm.cpp:57
 msgid "It was not possible to import the selected files."
-msgstr ""
+msgstr "无法导入所选文件。"
 
 #: forms/ImportForm.cpp:627
 msgid "Transfomer"
-msgstr ""
+msgstr "变压器"
 
 #: forms/ImportForm.cpp:671
 msgid "Machine"
-msgstr ""
+msgstr "电机"
 
 #: forms/ImportForm.h:212 forms/ImportForm.h:275
 msgid "Imported project"
-msgstr ""
+msgstr "导入的项目"
 
 #: forms/IndMotorForm.cpp:116
 msgid "Induction motor: Switching"
-msgstr ""
+msgstr "感应电动机：投切"
 
 #: forms/IndMotorForm.cpp:129
 msgid "Value entered incorrectly in the field \"Rated power\"."
-msgstr ""
+msgstr "“额定功率”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:144 forms/LoadForm.cpp:114
 #: forms/SyncMachineForm.cpp:324 forms/SyncMachineForm.cpp:458
 msgid "Value entered incorrectly in the field \"Active power\"."
-msgstr ""
+msgstr "“有功功率”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:162 forms/LoadForm.cpp:132
 #: forms/ReactiveShuntElementForm.cpp:113
 #: forms/ReactiveShuntElementForm.cpp:137 forms/SyncMachineForm.cpp:342
 #: forms/SyncMachineForm.cpp:476
 msgid "Value entered incorrectly in the field \"Reactive power\"."
-msgstr ""
+msgstr "“无功功率”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:188
 msgid "Value entered incorrectly in the field \"Stator resistence\"."
-msgstr ""
+msgstr "“定子电阻”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:191
 msgid "Value entered incorrectly in the field \"Stator reactance\"."
-msgstr ""
+msgstr "“定子电抗”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:194
 msgid "Value entered incorrectly in the field \"Rotor resistence\"."
-msgstr ""
+msgstr "“转子电阻”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:197
 msgid "Value entered incorrectly in the field \"Rotor reactance\"."
-msgstr ""
+msgstr "“转子电抗”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:200
 msgid "Value entered incorrectly in the field \"Magnetizing reactance\"."
-msgstr ""
+msgstr "“励磁电抗”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:204
 msgid "Value entered incorrectly in the field \"Cage factor\"."
-msgstr ""
+msgstr "“笼型系数”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:208
 msgid "Value entered incorrectly in the field \"Constant torque\"."
-msgstr ""
+msgstr "“恒定转矩”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:211
 msgid "Value entered incorrectly in the field \"Linear torque\"."
-msgstr ""
+msgstr "“线性转矩”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:214
 msgid "Value entered incorrectly in the field \"Quadratic torque\"."
-msgstr ""
+msgstr "“二次转矩”字段输入有误。"
 
 #: forms/IndMotorForm.cpp:220
 msgid ""
 "The sum of the torque portions must be unitary.\n"
 "The current value is "
 msgstr ""
+"转矩各部分之和必须为 1。\n"
+"当前值为 "
 
 #: forms/LimiterForm.cpp:44 forms/RateLimiterForm.cpp:39
 msgid "Value entered incorrectly in the field \"Upper limit\"."
-msgstr ""
+msgstr "“上限”字段输入有误。"
 
 #: forms/LimiterForm.cpp:47 forms/RateLimiterForm.cpp:42
 msgid "Value entered incorrectly in the field \"Lower limit\"."
-msgstr ""
+msgstr "“下限”字段输入有误。"
 
 #: forms/LineForm.cpp:140
 msgid "Line: Switching"
-msgstr ""
+msgstr "线路：投切"
 
 #: forms/LineForm.cpp:160 forms/SyncMachineForm.cpp:309
 #: forms/SyncMachineForm.cpp:443 forms/TransformerForm.cpp:154
 msgid "Value entered incorrectly in the field \"Nominal power\"."
-msgstr ""
+msgstr "“标称功率”字段输入有误。"
 
 #: forms/LineForm.cpp:175 forms/TransformerForm.cpp:169
 msgid "Value entered incorrectly in the field \"Resistance\"."
-msgstr ""
+msgstr "“电阻”字段输入有误。"
 
 #: forms/LineForm.cpp:190
 msgid "Value entered incorrectly in the field \"Indutive Reactance\"."
-msgstr ""
+msgstr "“感抗”字段输入有误。"
 
 #: forms/LineForm.cpp:205
 msgid "Value entered incorrectly in the field \"Capacitive Susceptance\"."
-msgstr ""
+msgstr "“容纳”字段输入有误。"
 
 #: forms/LineForm.cpp:220
 msgid "Value entered incorrectly in the field \"Line size\"."
-msgstr ""
+msgstr "“导线截面”字段输入有误。"
 
 #: forms/LineForm.cpp:226
 msgid "Value entered incorrectly in the field \"Zero-sequence resistance\"."
-msgstr ""
+msgstr "“零序电阻”字段输入有误。"
 
 #: forms/LineForm.cpp:229
 msgid ""
 "Value entered incorrectly in the field \"Zero-sequence indutive reactance\"."
-msgstr ""
+msgstr "“零序感抗”字段输入有误。"
 
 #: forms/LineForm.cpp:232
 msgid ""
 "Value entered incorrectly in the field \"Zero-sequence capacitive "
 "susceptance\"."
-msgstr ""
+msgstr "“零序容纳”字段输入有误。"
 
 #: forms/LoadForm.cpp:101
 msgid "Load: Switching"
-msgstr ""
+msgstr "负荷：投切"
 
 #: forms/LoadForm.cpp:164
 msgid ""
 "Value entered incorrectly in the field \"Constant impedance portion of "
 "active power\"."
-msgstr ""
+msgstr "“有功功率恒阻抗比例”字段输入有误。"
 
 #: forms/LoadForm.cpp:168
 msgid ""
 "Value entered incorrectly in the field \"Constant current portion of active "
 "power\"."
-msgstr ""
+msgstr "“有功功率恒电流比例”字段输入有误。"
 
 #: forms/LoadForm.cpp:172
 msgid ""
 "Value entered incorrectly in the field \"Constant power portion of active "
 "power\"."
-msgstr ""
+msgstr "“有功功率恒功率比例”字段输入有误。"
 
 #: forms/LoadForm.cpp:176
 msgid ""
 "Value entered incorrectly in the field \"Constant impedance portion of "
 "reactive power\"."
-msgstr ""
+msgstr "“无功功率恒阻抗比例”字段输入有误。"
 
 #: forms/LoadForm.cpp:180
 msgid ""
 "Value entered incorrectly in the field \"Constant current portion of "
 "reactive power\"."
-msgstr ""
+msgstr "“无功功率恒电流比例”字段输入有误。"
 
 #: forms/LoadForm.cpp:184
 msgid ""
 "Value entered incorrectly in the field \"Constant power portion of reactive "
 "power\"."
-msgstr ""
+msgstr "“无功功率恒功率比例”字段输入有误。"
 
 #: forms/LoadForm.cpp:189 forms/SimulationsSettingsForm.cpp:210
 msgid "The sum of active power load composition must be 100%."
-msgstr ""
+msgstr "有功功率负荷构成之和必须为 100%。"
 
 #: forms/LoadForm.cpp:196 forms/SimulationsSettingsForm.cpp:217
 msgid "The sum of reactive power load composition must be 100%."
-msgstr ""
+msgstr "无功功率负荷构成之和必须为 100%。"
 
 #: forms/MathExpressionForm.cpp:44
 msgid "No checks performed."
-msgstr ""
+msgstr "未执行检查。"
 
 #: forms/MathExpressionForm.cpp:58
 msgid "Syntax error"
-msgstr ""
+msgstr "语法错误"
 
 #: forms/MathExpressionForm.cpp:59
 msgid "Mismatched parenthesis"
-msgstr ""
+msgstr "括号不匹配"
 
 #: forms/MathExpressionForm.cpp:60
 msgid "Missing ')'"
-msgstr ""
+msgstr "缺少 ')'"
 
 #: forms/MathExpressionForm.cpp:61
 msgid "Empty parentheses"
-msgstr ""
+msgstr "空括号"
 
 #: forms/MathExpressionForm.cpp:62
 msgid "Syntax error: Operator expected"
-msgstr ""
+msgstr "语法错误：缺少运算符"
 
 #: forms/MathExpressionForm.cpp:63
 msgid "Not enough memory"
-msgstr ""
+msgstr "内存不足"
 
 #: forms/MathExpressionForm.cpp:64
 msgid "An unexpected error occurred"
-msgstr ""
+msgstr "发生未预期的错误"
 
 #: forms/MathExpressionForm.cpp:65
 msgid "Syntax error in input variables"
-msgstr ""
+msgstr "输入变量语法错误"
 
 #: forms/MathExpressionForm.cpp:66
 msgid "Illegal number of parameters to function"
-msgstr ""
+msgstr "函数参数数量非法"
 
 #: forms/MathExpressionForm.cpp:67
 msgid "Syntax error: Premature end of string"
-msgstr ""
+msgstr "语法错误：字符串过早结束"
 
 #: forms/MathExpressionForm.cpp:68
 msgid "Syntax error: Expecting ( after function"
-msgstr ""
+msgstr "语法错误：函数后缺少 ("
 
 #: forms/MathExpressionForm.cpp:69
 msgid "Syntax error: Unknown identifier"
-msgstr ""
+msgstr "语法错误：未知标识符"
 
 #: forms/MathExpressionForm.cpp:70
 msgid "No function has been parsed yet"
-msgstr ""
+msgstr "尚未解析任何函数"
 
 #: forms/MathExpressionForm.cpp:85
 msgid "There is an error on math expression."
-msgstr ""
+msgstr "数学表达式中存在错误。"
 
 #: forms/MathExpressionForm.cpp:172
 msgid "The math expression is correct."
-msgstr ""
+msgstr "数学表达式正确。"
 
 #: forms/ProjectPropertiesForm.cpp:30
 msgid "Value entered incorrectly in the field \"Label max voltage\"."
-msgstr ""
+msgstr "“标签最大电压”字段输入有误。"
 
 #: forms/ProjectPropertiesForm.cpp:33
 msgid "Value entered incorrectly in the field \"Label min voltage\"."
-msgstr ""
+msgstr "“标签最小电压”字段输入有误。"
 
 #: forms/PropertiesFormBase.cpp:55
 msgid "Language"
-msgstr ""
+msgstr "语言"
 
 #: forms/PropertiesFormBase.cpp:71
 msgid "Plot library"
-msgstr ""
+msgstr "绘图库"
 
 #: forms/PropertiesFormBase.cpp:87
 msgid "Theme"
-msgstr ""
+msgstr "主题"
 
 #: forms/PropertiesFormBase.cpp:179
 msgid "Base power"
-msgstr ""
+msgstr "基准功率"
 
 #: forms/PropertiesFormBase.cpp:207
 msgid "System frequency"
-msgstr ""
+msgstr "系统频率"
 
 #: forms/PropertiesFormBase.cpp:226
 msgid "Continuous calculation"
-msgstr ""
+msgstr "连续计算"
 
 #: forms/PropertiesFormBase.cpp:230
 msgid "Calculate fault after power flow"
-msgstr ""
+msgstr "潮流计算后计算短路"
 
 #: forms/PropertiesFormBase.cpp:235
 msgid "Calculate short-circuit power after power flow"
-msgstr ""
+msgstr "潮流计算后计算短路容量"
 
 #: forms/PropertiesFormBase.cpp:240
 msgid "Calculate harmonic distortion after power flow"
-msgstr ""
+msgstr "潮流计算后计算谐波畸变"
 
 #: forms/PropertiesFormBase.cpp:255
 msgid "Solution method"
-msgstr ""
+msgstr "求解方法"
 
 #: forms/PropertiesFormBase.cpp:260
 msgid "Gauss-Seidel"
-msgstr ""
+msgstr "高斯-赛德尔"
 
 #: forms/PropertiesFormBase.cpp:261
 msgid "Newton-Raphson"
-msgstr ""
+msgstr "牛顿-拉夫逊"
 
 #: forms/PropertiesFormBase.cpp:262
 msgid "Hybrid Gauss-Newton"
-msgstr ""
+msgstr "高斯-牛顿混合"
 
 #: forms/PropertiesFormBase.cpp:276
 msgid "Acceleration factor"
-msgstr ""
+msgstr "加速因子"
 
 #: forms/PropertiesFormBase.cpp:291 forms/PropertiesFormBase.cpp:433
 msgid "Tolerance"
-msgstr ""
+msgstr "容差"
 
 #: forms/PropertiesFormBase.cpp:306
 msgid "Max. iterations"
-msgstr ""
+msgstr "最大迭代次数"
 
 #: forms/PropertiesFormBase.cpp:321
 msgid "Slack bus angle"
-msgstr ""
+msgstr "平衡节点相角"
 
 #: forms/PropertiesFormBase.cpp:345
 msgid "Newton inertia"
-msgstr ""
+msgstr "牛顿惯性"
 
 #: forms/PropertiesFormBase.cpp:361
 msgid "Gauss tolerance"
-msgstr ""
+msgstr "高斯容差"
 
 #: forms/PropertiesFormBase.cpp:448
 msgid "Max. Iterations"
-msgstr ""
+msgstr "最大迭代次数"
 
 #: forms/PropertiesFormBase.cpp:463
 msgid "Controls step ratio"
-msgstr ""
+msgstr "控制步长比"
 
 #: forms/PropertiesFormBase.cpp:478
 msgid "Plot time"
-msgstr ""
+msgstr "绘图时间"
 
 #: forms/PropertiesFormBase.cpp:497
 msgid "Use center of inertia as reference"
-msgstr ""
+msgstr "以惯性中心为参考"
 
 #: forms/PropertiesFormBase.cpp:503
 msgid "ZIP Load"
-msgstr ""
+msgstr "ZIP 负荷"
 
 #: forms/PropertiesFormBase.cpp:508
 msgid "Use general composition to all system loads"
-msgstr ""
+msgstr "对所有系统负荷使用通用构成"
 
 #: forms/PropertiesFormBase.cpp:663
 msgid ""
 "Undervoltage limit which the loads will be modelled by\n"
 "constant impedance:"
-msgstr ""
+msgstr "负荷将按恒阻抗建模的欠电压限值:\n"
 
 #: forms/PropertiesFormBase.cpp:718
 msgid "Harmonics"
-msgstr ""
+msgstr "谐波"
 
 #: forms/PropertiesFormBase.cpp:727
 msgid "Load connection"
-msgstr ""
+msgstr "负荷接线方式"
 
 #: forms/PropertiesFormBase.cpp:732
 msgid "Parallel"
-msgstr ""
+msgstr "并联"
 
 #: forms/PropertiesFormBase.cpp:733
 msgid "Series"
-msgstr ""
+msgstr "串联"
 
 #: forms/PropertiesFormBase.cpp:734
 msgid "Disconnected"
-msgstr ""
+msgstr "断开"
 
 #: forms/PropertiesFormBase.cpp:814
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #: forms/PropertiesFormBase.cpp:824
 msgid "Credits"
-msgstr ""
+msgstr "致谢"
 
 #: forms/PropertiesFormBase.cpp:841
 msgid "License"
-msgstr ""
+msgstr "许可协议"
 
 #: forms/PropertiesFormBase.cpp:857
 msgid "Version:"
-msgstr ""
+msgstr "版本:"
 
 #: forms/PropertiesFormBase.cpp:861
 msgid "Alpha 2018w15a"
-msgstr ""
+msgstr "Alpha 2018w15a"
 
 #: forms/PropertiesFormBase.cpp:865
 msgid "Home page:"
-msgstr ""
+msgstr "主页:"
 
 #: forms/PropertiesFormBase.cpp:869
 msgid "https://thales1330.github.io/PSP/"
-msgstr ""
+msgstr "https://thales1330.github.io/PSP/"
 
 #: forms/PropertiesFormBase.cpp:934
 msgid "CEPEL"
-msgstr ""
+msgstr "CEPEL"
 
 #: forms/PropertiesFormBase.cpp:939
 msgid "ANAREDE"
-msgstr ""
+msgstr "ANAREDE"
 
 #: forms/PropertiesFormBase.cpp:947
 msgid ".PWF file"
-msgstr ""
+msgstr ".PWF 文件"
 
 #: forms/PropertiesFormBase.cpp:951
 msgid "Select a ANAREDE PWF file"
-msgstr ""
+msgstr "选择 ANAREDE PWF 文件"
 
 #: forms/PropertiesFormBase.cpp:960
 msgid ".LST file"
-msgstr ""
+msgstr ".LST 文件"
 
 #: forms/PropertiesFormBase.cpp:964
 msgid "Select a ANAREDE LST file"
-msgstr ""
+msgstr "选择 ANAREDE LST 文件"
 
 #: forms/PropertiesFormBase.cpp:969
 msgid "ANATEM"
-msgstr ""
+msgstr "ANATEM"
 
 #: forms/PropertiesFormBase.cpp:977
 msgid ".STB file"
-msgstr ""
+msgstr ".STB 文件"
 
 #: forms/PropertiesFormBase.cpp:982
 msgid "Select a ANATEM STB file"
-msgstr ""
+msgstr "选择 ANATEM STB 文件"
 
 #: forms/PropertiesFormBase.cpp:989
 msgid "Matpower"
-msgstr ""
+msgstr "Matpower"
 
 #: forms/PropertiesFormBase.cpp:998
 msgid ".M file"
-msgstr ""
+msgstr ".M 文件"
 
 #: forms/PropertiesFormBase.cpp:1002
 msgid "Select a Matpower M file"
-msgstr ""
+msgstr "选择 Matpower M 文件"
 
 #: forms/PropertiesFormBase.cpp:1007
 msgid "Import options"
-msgstr ""
+msgstr "导入选项"
 
 #: forms/PropertiesFormBase.cpp:1015
 msgid "Scale"
-msgstr ""
+msgstr "比例"
 
 #: forms/PropertiesFormBase.cpp:1030
 msgid "Iterations"
-msgstr ""
+msgstr "迭代"
 
 #: forms/PropertiesFormBase.cpp:1113
 msgid "Initial frequency"
-msgstr ""
+msgstr "初始频率"
 
 #: forms/PropertiesFormBase.cpp:1136
 msgid "Final frequency"
-msgstr ""
+msgstr "终止频率"
 
 #: forms/PropertiesFormBase.cpp:1159
 msgid "Frequency step"
-msgstr ""
+msgstr "频率步长"
 
 #: forms/PropertiesFormBase.cpp:1182
 msgid "Injected current"
-msgstr ""
+msgstr "注入电流"
 
 #: forms/PropertiesFormBase.cpp:1257
 msgid "Voltage heatmap"
-msgstr ""
+msgstr "电压热力图"
 
 #: forms/PropertiesFormBase.cpp:1261
 msgid "Calculate automatically the label limits"
-msgstr ""
+msgstr "自动计算标签范围"
 
 #: forms/PropertiesFormBase.cpp:1270
 msgid "Label max voltage"
-msgstr ""
+msgstr "标签最大电压"
 
 #: forms/PropertiesFormBase.cpp:1293
 msgid "Label min voltage"
-msgstr ""
+msgstr "标签最小电压"
 
 #: forms/PropertiesFormBase.h:80
 msgid "General settings"
-msgstr ""
+msgstr "常规设置"
 
 #: forms/PropertiesFormBase.h:248
 msgid "Simulation settings"
-msgstr ""
+msgstr "仿真设置"
 
 #: forms/PropertiesFormBase.h:333
 msgid "Import files"
-msgstr ""
+msgstr "导入文件"
 
 #: forms/PropertiesFormBase.h:410
 msgid "Project properties"
-msgstr ""
+msgstr "工程属性"
 
 #: forms/ReactiveShuntElementForm.cpp:93
 msgid "Capacitor: Switching"
-msgstr ""
+msgstr "电容器：投切"
 
 #: forms/ReactiveShuntElementForm.cpp:97
 msgid "Inductor: Switching"
-msgstr ""
+msgstr "电抗器：投切"
 
 #: forms/SimulationsSettingsForm.cpp:103
 msgid "Value entered incorrectly in the field \"Base power\"."
-msgstr ""
+msgstr "“基准功率”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:131
 msgid "Value entered incorrectly in the field \"Acceleration factor\"."
-msgstr ""
+msgstr "“加速因子”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:134
 msgid "Value entered incorrectly in the field \"Tolerance (Power flow)\"."
-msgstr ""
+msgstr "“容差（潮流）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:137
-msgid ""
-"Value entered incorrectly in the field \"Max. iterations (Power flow)\"."
-msgstr ""
+msgid "Value entered incorrectly in the field \"Max. iterations (Power flow)\"."
+msgstr "“最大迭代次数（潮流）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:140
 msgid "Value entered incorrectly in the field \"Slack bus angle\"."
-msgstr ""
+msgstr "“平衡节点相角”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:143
 msgid "Value entered incorrectly in the field \"Newton inertia (Power flow)\"."
-msgstr ""
+msgstr "“牛顿惯性（潮流）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:146
-msgid ""
-"Value entered incorrectly in the field \"Gauss tolerance (Power flow)\"."
-msgstr ""
+msgid "Value entered incorrectly in the field \"Gauss tolerance (Power flow)\"."
+msgstr "“高斯容差（潮流）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:155
 msgid "Value entered incorrectly in the field \"System frequency\"."
-msgstr ""
+msgstr "“系统频率”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:158
 msgid "Value entered incorrectly in the field \"Tolerance (stability)\"."
-msgstr ""
+msgstr "“容差（稳定性）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:161
 msgid "Value entered incorrectly in the field \"Max. iterations (stability)\"."
-msgstr ""
+msgstr "“最大迭代次数（稳定性）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:164
 msgid "Value entered incorrectly in the field \"Controls step ratio\"."
-msgstr ""
+msgstr "“控制步长比”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:167
 msgid "Value entered incorrectly in the field \"Plot time\"."
-msgstr ""
+msgstr "“绘图时间”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:175
 msgid ""
 "Value entered incorrectly in the field \"Constant impedance portion of "
 "active power (ZIP load)\"."
-msgstr ""
+msgstr "“有功功率恒阻抗比例（ZIP 负荷）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:179
 msgid ""
 "Value entered incorrectly in the field \"Constant current portion of active "
 "power (ZIP load)\"."
-msgstr ""
+msgstr "“有功功率恒电流比例（ZIP 负荷）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:183
 msgid ""
 "Value entered incorrectly in the field \"Constant power portion of active "
 "power (ZIP load)\"."
-msgstr ""
+msgstr "“有功功率恒功率比例（ZIP 负荷）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:187
 msgid ""
 "Value entered incorrectly in the field \"Constant impedance portion of "
 "reactive power (ZIP load)\"."
-msgstr ""
+msgstr "“无功功率恒阻抗比例（ZIP 负荷）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:191
 msgid ""
 "Value entered incorrectly in the field \"Constant current portion of "
 "reactive power (ZIP load)\"."
-msgstr ""
+msgstr "“无功功率恒电流比例（ZIP 负荷）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:195
 msgid ""
 "Value entered incorrectly in the field \"Constant power portion of reactive "
 "power (ZIP load)\"."
-msgstr ""
+msgstr "“无功功率恒功率比例（ZIP 负荷）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:200
 msgid ""
-"Value entered incorrectly in the field \"Constant current undervoltage limit "
-"(ZIP load)\"."
-msgstr ""
+"Value entered incorrectly in the field \"Constant current undervoltage limit"
+" (ZIP load)\"."
+msgstr "“恒电流欠电压限值（ZIP 负荷）”字段输入有误。"
 
 #: forms/SimulationsSettingsForm.cpp:205
 msgid ""
 "Value entered incorrectly in the field \"Constant power undervoltage limit "
 "(ZIP load)\"."
-msgstr ""
+msgstr "“恒功率欠电压限值（ZIP 负荷）”字段输入有误。"
 
 #: forms/StabilityEventList.cpp:39
 msgid "Fault insertion at \""
-msgstr ""
+msgstr "在 \" 处插入故障"
 
 #: forms/StabilityEventList.cpp:39 forms/StabilityEventList.cpp:44
 msgid "\" (Zf = "
-msgstr ""
+msgstr "\" (Zf = "
 
 #: forms/StabilityEventList.cpp:44
 msgid "Fault removal at \""
-msgstr ""
+msgstr "在 \" 处移除故障"
 
 #: forms/StabilityEventList.cpp:120
 msgid "Event time"
-msgstr ""
+msgstr "事件时间"
 
 #: forms/StabilityEventList.cpp:122
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: forms/StabilityEventList.cpp:153
 msgid "Insertion of \""
-msgstr ""
+msgstr "插入 \""
 
 #: forms/StabilityEventList.cpp:153 forms/StabilityEventList.cpp:155
 msgid "\""
-msgstr ""
+msgstr "\""
 
 #: forms/StabilityEventList.cpp:155
 msgid "Removal of \""
-msgstr ""
+msgstr "移除 \""
 
 #: forms/SumForm.cpp:58
 msgid "You must assign at least two signals."
-msgstr ""
+msgstr "必须至少分配两个信号。"
 
 #: forms/SumForm.cpp:74
 msgid "Value entered incorrectly in the field \"Signs\"."
-msgstr ""
+msgstr "“符号”字段输入有误。"
 
 #: forms/SyncMachineForm.cpp:362 forms/SyncMachineForm.cpp:496
 msgid "Value entered incorrectly in the field \"Max reactive power\"."
-msgstr ""
+msgstr "“最大无功功率”字段输入有误。"
 
 #: forms/SyncMachineForm.cpp:383 forms/SyncMachineForm.cpp:517
 msgid "Value entered incorrectly in the field \"Min reactive power\"."
-msgstr ""
+msgstr "“最小无功功率”字段输入有误。"
 
 #: forms/SyncMachineForm.cpp:404 forms/SyncMachineForm.cpp:538
 msgid "Value entered incorrectly in the field \"Positive resistance\"."
-msgstr ""
+msgstr "“正序电阻”字段输入有误。"
 
 #: forms/SyncMachineForm.cpp:408 forms/SyncMachineForm.cpp:542
 msgid "Value entered incorrectly in the field \"Positive reactance\"."
-msgstr ""
+msgstr "“正序电抗”字段输入有误。"
 
 #: forms/SyncMachineForm.cpp:412 forms/SyncMachineForm.cpp:546
 msgid "Value entered incorrectly in the field \"Negative resistance\"."
-msgstr ""
+msgstr "“负序电阻”字段输入有误。"
 
 #: forms/SyncMachineForm.cpp:416 forms/SyncMachineForm.cpp:550
 msgid "Value entered incorrectly in the field \"Negative reactance\"."
-msgstr ""
+msgstr "“负序电抗”字段输入有误。"
 
 #: forms/SyncMachineForm.cpp:420 forms/SyncMachineForm.cpp:554
 msgid "Value entered incorrectly in the field \"Zero resistance\"."
-msgstr ""
+msgstr "“零序电阻”字段输入有误。"
 
 #: forms/SyncMachineForm.cpp:424 forms/SyncMachineForm.cpp:558
 msgid "Value entered incorrectly in the field \"Zero reactance\"."
-msgstr ""
+msgstr "“零序电抗”字段输入有误。"
 
 #: forms/SyncMachineForm.cpp:428 forms/SyncMachineForm.cpp:562
 msgid "Value entered incorrectly in the field \"Ground resistance\"."
-msgstr ""
+msgstr "“接地电阻”字段输入有误。"
 
 #: forms/SyncMachineForm.cpp:432 forms/SyncMachineForm.cpp:566
 msgid "Value entered incorrectly in the field \"Ground reactance\"."
-msgstr ""
+msgstr "“接地电抗”字段输入有误。"
 
 #: forms/TextForm.cpp:900 forms/TextForm.cpp:911
 msgid "Active power flow"
-msgstr ""
+msgstr "有功功率潮流"
 
 #: forms/TextForm.cpp:901 forms/TextForm.cpp:912
 msgid "Reactive power flow"
-msgstr ""
+msgstr "无功功率潮流"
 
 #: forms/TextForm.cpp:988
 msgid "Degrees"
-msgstr ""
+msgstr "度"
 
 #: forms/TextForm.cpp:989
 msgid "Radians"
-msgstr ""
+msgstr "弧度"
 
 #: forms/TextForm.cpp:995
 msgid "kA"
-msgstr ""
+msgstr "kA"
 
 #: forms/TextForm.cpp:1235
 msgid "There are blank fields."
-msgstr ""
+msgstr "存在空白字段。"
 
 #: forms/TransferFunctionForm.cpp:74
 msgid "Value entered incorrectly in the field \"Numerator parameters\"."
-msgstr ""
+msgstr "“分子参数”字段输入有误。"
 
 #: forms/TransferFunctionForm.cpp:87
 msgid "Value entered incorrectly in the field \"Denominator parameters\"."
-msgstr ""
+msgstr "“分母参数”字段输入有误。"
 
 #: forms/TransformerForm.cpp:140
 msgid "Transfomer: Switching"
-msgstr ""
+msgstr "变压器：投切"
 
 #: forms/TransformerForm.cpp:181
 msgid "Value entered incorrectly in the field \"Indutive reactance\"."
-msgstr ""
+msgstr "“感抗”字段输入有误。"
 
 #: forms/TransformerForm.cpp:223
 msgid "Value entered incorrectly in the field \"Turns ratio\"."
-msgstr ""
+msgstr "“变比”字段输入有误。"
 
 #: forms/TransformerForm.cpp:227
 msgid "Value entered incorrectly in the field \"Phase shift\"."
-msgstr ""
+msgstr "“相移”字段输入有误。"
 
 #: forms/TransformerForm.cpp:233
 msgid "Value entered incorrectly in the field \"Zero sequence resistance\"."
-msgstr ""
+msgstr "“零序电阻”字段输入有误。"
 
 #: forms/TransformerForm.cpp:238
 msgid ""
 "Value entered incorrectly in the field \"Zero sequence indutive reactance\"."
-msgstr ""
+msgstr "“零序感抗”字段输入有误。"
 
 #: forms/TransformerForm.cpp:242
 msgid "Value entered incorrectly in the field \"Primary ground resistance\"."
-msgstr ""
+msgstr "“一次侧接地电阻”字段输入有误。"
 
 #: forms/TransformerForm.cpp:246
 msgid "Value entered incorrectly in the field \"Primary ground reactance\"."
-msgstr ""
+msgstr "“一次侧接地电抗”字段输入有误。"
 
 #: forms/TransformerForm.cpp:250
 msgid "Value entered incorrectly in the field \"Secondary ground resistance\"."
-msgstr ""
+msgstr "“二次侧接地电阻”字段输入有误。"
 
 #: forms/TransformerForm.cpp:254
 msgid "Value entered incorrectly in the field \"Secondary ground reactance\"."
-msgstr ""
+msgstr "“二次侧接地电抗”字段输入有误。"
 
 #: main.cpp:167
 msgid "This language is not supported by the system."
-msgstr ""
+msgstr "系统不支持该语言。"
 
 #: main.cpp:178
 msgid "Fail to load brazilian portuguese language catalog."
-msgstr ""
+msgstr "无法加载巴西葡萄牙语语言目录。"
 
 #: simulation/Electromechanical.cpp:72
 msgid "Running simulation"
-msgstr ""
+msgstr "正在运行仿真"
 
 #: simulation/Electromechanical.cpp:79
 msgid "It was not possible to build the admittance matrix."
-msgstr ""
+msgstr "无法构建导纳矩阵。"
 
 #: simulation/Electromechanical.cpp:150
 #, c-format
 msgid "Simulation cancelled at %.2fs."
-msgstr ""
+msgstr "仿真在 %.2f 秒时取消。"
 
 #: simulation/Electromechanical.cpp:669
 msgid "Error on initializate the saturation values of \""
-msgstr ""
+msgstr "初始化 \" 的饱和值出错"
 
 #: simulation/Electromechanical.cpp:669 simulation/Electromechanical.cpp:1925
 msgid "\"."
-msgstr ""
+msgstr "\"。"
 
 #: simulation/Electromechanical.cpp:775
 msgid "Error on initializate the AVR of \""
-msgstr ""
+msgstr "初始化 \" 的自动电压调节器出错"
 
 #: simulation/Electromechanical.cpp:796
 msgid "Error on initializate the speed governor of \""
-msgstr ""
+msgstr "初始化 \" 的调速器出错"
 
 #: simulation/Electromechanical.cpp:1298
 msgid ""
 "Impossible to solve the system machines.\n"
 "Check the system parameters and/or decrease the time step."
 msgstr ""
+"无法求解系统电机。\n"
+"请检查系统参数和/或减小时间步长。"
 
 #: simulation/Electromechanical.cpp:1743
 msgid ""
 "It was not possible to solve the saturation of the synchronous machine \""
-msgstr ""
+msgstr "无法求解同步电机 \" 的饱和特性"
 
 #: simulation/Electromechanical.cpp:1925
 msgid "Error on initializate the slip of \""
-msgstr ""
+msgstr "初始化 \" 的转差出错"
 
 #: simulation/Electromechanical.h:114
 msgid "Unknown error"
-msgstr ""
+msgstr "未知错误"
 
 #: simulation/Fault.cpp:31
 msgid "There is no buses in the system."
-msgstr ""
+msgstr "系统中没有母线。"
 
 #: simulation/Fault.cpp:68
 msgid "There is no fault in the system or the faulty bus is disconnected."
-msgstr ""
+msgstr "系统中没有故障，或故障母线已断开。"
 
 #: simulation/Fault.cpp:72
 msgid ""
-"There is more than one fault in the system, and this can lead to "
-"inconsistent results.\n"
+"There is more than one fault in the system, and this can lead to inconsistent results.\n"
 "Do you wish to proceed?"
 msgstr ""
+"系统中存在多个故障，这可能导致结果不一致。\n"
+"是否继续？"
 
 #: simulation/Fault.cpp:74
 msgid "Fault calculation was cancelled by the user."
-msgstr ""
+msgstr "故障计算已被用户取消。"
 
 #: simulation/Fault.cpp:83 simulation/Fault.cpp:430
 msgid "Fail to invert the positive sequence admittance matrix."
-msgstr ""
+msgstr "无法求逆正序导纳矩阵。"
 
 #: simulation/Fault.cpp:87
 msgid "Fail to invert the negative sequence admittance matrix."
-msgstr ""
+msgstr "无法求逆负序导纳矩阵。"
 
 #: simulation/Fault.cpp:91
 msgid "Fail to invert the zero sequence admittance matrix."
-msgstr ""
+msgstr "无法求逆零序导纳矩阵。"
 
 #: simulation/PowerFlow.cpp:34
 msgid "No buses found on the system."
-msgstr ""
+msgstr "系统中未找到母线。"
 
 #: simulation/PowerFlow.cpp:174 simulation/PowerFlow.cpp:245
 #: simulation/PowerFlow.cpp:309 simulation/PowerFlow.cpp:412
 #: simulation/PowerFlow.cpp:444
 msgid "It was not possible to solve the induction motors."
-msgstr ""
+msgstr "无法求解感应电动机。"
 
 #: simulation/PowerFlow.cpp:203
 msgid "There is no slack bus on the system."
-msgstr ""
+msgstr "系统中没有平衡节点。"
 
 #: simulation/PowerFlow.cpp:207
 msgid "The slack bus don't have generation."
-msgstr ""
+msgstr "平衡节点没有发电出力。"
 
 #: simulation/PowerFlow.cpp:239 simulation/PowerFlow.cpp:303
 #: simulation/PowerFlow.cpp:406 simulation/PowerFlow.cpp:438
 msgid "The maximum number of iterations was reached."
-msgstr ""
+msgstr "已达到最大迭代次数。"
 
 #: simulation/PowerQuality.cpp:242 simulation/PowerQuality.cpp:278
 msgid "Error calculating the harmonic current in \""
-msgstr ""
+msgstr "计算 \" 中的谐波电流出错"
 
 #: utils/DebugFrameBase.hpp:46
 msgid "Debug text"
-msgstr ""
+msgstr "调试文本"
 
 #: utils/GraphAutoLayout.cpp:42
 msgid "Importing..."
-msgstr ""
+msgstr "导入中..."
