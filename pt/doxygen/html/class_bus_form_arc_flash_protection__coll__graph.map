@@ -1,0 +1,21 @@
+<map id="BusFormArcFlashProtection" name="BusFormArcFlashProtection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="207,269,408,295"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="27,181,260,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,211,286,267,284,271,176,215"/>
+<area shape="rect" id="Node000003" href="$class_bus.html" title="Node for power elements. All others power elements are connected through this." alt="" coords="284,181,331,207"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="310,221,310,269,305,269,305,221"/>
+<area shape="rect" id="Node000004" href="$class_power_element.html" title="Abstract class of power elements." alt="" coords="99,93,215,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="190,123,288,179,286,183,187,128"/>
+<area shape="rect" id="Node000005" href="$class_element.html" title="Base class of all elements of the program. This class is responsible for manage graphical and his dat..." alt="" coords="5,5,81,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="71,37,143,91,140,95,68,41"/>
+<area shape="rect" id="Node000006" href="$struct_switching_data.html" title="Switching data of power elements." alt="" coords="105,5,221,31"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="164,45,160,93,155,93,159,44"/>
+<area shape="rect" id="Node000007" href="$struct_bus_electrical_data.html" title=" " alt="" coords="239,93,376,119"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="310,133,310,181,305,181,305,133"/>
+<area shape="rect" id="Node000008" href="$struct_arc_flash_data.html" title=" " alt="" coords="253,5,362,31"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="310,45,310,93,305,93,305,45"/>
+<area shape="rect" id="Node000009" href="$class_t_c_c_popup.html" title=" " alt="" coords="425,181,512,207"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="436,216,331,271,328,267,433,211"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="401,93,593,119"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="491,132,475,182,470,180,486,131"/>
+</map>

@@ -4,8 +4,8 @@ var searchData=
   ['aboutform_1',['AboutForm',['../class_about_form.html',1,'']]],
   ['aboutform_2eh_2',['AboutForm.h',['../_about_form_8h.html',1,'']]],
   ['addchild_3',['AddChild',['../class_element.html#ac38d6707d08cb5c057032aa94b511a62',1,'Element']]],
-  ['addparent_4',['addparent',['../class_transformer.html#aea52a4562ec5b4a79bf82b8ede32ecc6',1,'Transformer::AddParent()'],['../class_text.html#a4f273ea7008c72533327c25caff2e917',1,'Text::AddParent()'],['../class_machines.html#aaaf1b86dcbfd8f4a4c082a77d72b1fe3',1,'Machines::AddParent()'],['../class_load.html#ac9f449be9b919b36924a844324bf37ee',1,'Load::AddParent()'],['../class_line.html#a26c69f7f703dca718edc28d5093934a3',1,'Line::AddParent()'],['../class_inductor.html#a4e404c6e15f206fe0f5de06fc19dedf5',1,'Inductor::AddParent()'],['../class_e_m_t_element.html#a9793391b74f11de7211fd7bb4b8d5778',1,'EMTElement::AddParent()'],['../class_capacitor.html#ace755e5bc3cc72b491ce31c24c54a5cf',1,'Capacitor::AddParent()'],['../class_bus.html#ab046baebe4bfe0a52905148d78f44681',1,'Bus::AddParent()'],['../class_element.html#ad1f153a87797633ab310d07e1d06eba9',1,'Element::AddParent()'],['../class_harm_current.html#ad0d53fd562d5519bf006aa21f0f0247c',1,'HarmCurrent::AddParent()'],['../class_element.html#a569178e9138490a981511a644536c0f9',1,'Element::AddParent(Element *parent, wxPoint2DDouble position)']]],
-  ['addpoint_5',['addpoint',['../class_element.html#aa40c60c03d6a76639d8c6f6bab86720e',1,'Element::AddPoint()'],['../class_branch.html#a8d6d80c50f849c5be2bccffd5b524e21',1,'Branch::AddPoint()'],['../class_line.html#a046a7b2ebff50f237f73dbc182f7ff6f',1,'Line::AddPoint()']]],
+  ['addparent_4',['addparent',['../class_harm_current.html#a39a844d4156b3e591812a9df9b35480b',1,'HarmCurrent::AddParent()'],['../class_text.html#a7b999379661fd4479b1b8547e960d619',1,'Text::AddParent()'],['../class_transformer.html#ac8efef04d254c8b5b700bbe4921aec3e',1,'Transformer::AddParent()'],['../class_machines.html#aaa61e6c668a75d70ae7af0cd6469a03d',1,'Machines::AddParent()'],['../class_load.html#a4bb647c4d8dc88431b50c9bbeb8cf528',1,'Load::AddParent()'],['../class_line.html#ad6335503a8da6955c30709304b1f5961',1,'Line::AddParent()'],['../class_inductor.html#ad14904057a45e4e028f22cbec35a861c',1,'Inductor::AddParent()'],['../class_e_m_t_element.html#a47d500c0f702b058490c77960035b3f7',1,'EMTElement::AddParent()'],['../class_capacitor.html#a9fc0a92929b846090b6e375598790808',1,'Capacitor::AddParent()'],['../class_element.html#ad1f153a87797633ab310d07e1d06eba9',1,'Element::AddParent()'],['../class_bus.html#a7dce052ae7ef9ae2ffe1e69fa684b8c0',1,'Bus::AddParent()'],['../class_element.html#a72f58b63026e6012f5d8b7a70a33bede',1,'Element::AddParent()']]],
+  ['addpoint_5',['addpoint',['../class_line.html#a046a7b2ebff50f237f73dbc182f7ff6f',1,'Line::AddPoint()'],['../class_branch.html#a8d6d80c50f849c5be2bccffd5b524e21',1,'Branch::AddPoint()'],['../class_element.html#aa40c60c03d6a76639d8c6f6bab86720e',1,'Element::AddPoint()']]],
   ['ana_5fbus_6',['ANA_BUS',['../_import_form_8h.html#af79b7ee434281f21c847fec3980be290a52b2c8c79952ee066e91d5a1facd4815',1,'ImportForm.h']]],
   ['ana_5fgenerator_7',['ANA_GENERATOR',['../_import_form_8h.html#af79b7ee434281f21c847fec3980be290a3b8b996b3776a31cf5ac9e5d2286eaab',1,'ImportForm.h']]],
   ['ana_5find_5fgenerator_8',['ANA_IND_GENERATOR',['../_import_form_8h.html#af79b7ee434281f21c847fec3980be290a1203c4f3a40524055480e407524f8a61',1,'ImportForm.h']]],
@@ -18,7 +18,12 @@ var searchData=
   ['ana_5ftransformer_15',['ANA_TRANSFORMER',['../_import_form_8h.html#af79b7ee434281f21c847fec3980be290ae20185e7bdf7526464668c4baa6cb2b4',1,'ImportForm.h']]],
   ['and_20license_16',['Author and License',['../index.html#author',1,'']]],
   ['angle_17',['angle',['../struct_parse_matpower_1_1_bus_data.html#a60d6aa77ba20860e322db2ac580deda0',1,'ParseMatpower::BusData::angle'],['../struct_parse_anarede_1_1_bus_data.html#a3201f9b637bba6cfd0efc9b3fcbc3da9',1,'ParseAnarede::BusData::angle']]],
-  ['area_18',['area',['../struct_parse_matpower_1_1_bus_data.html#a6a91b46f3cdd2c217ce15ba608994de2',1,'ParseMatpower::BusData']]],
-  ['atpfileeditorform_19',['ATPFileEditorForm',['../class_a_t_p_file_editor_form.html',1,'']]],
-  ['author_20and_20license_20',['Author and License',['../index.html#author',1,'']]]
+  ['arcflashdata_18',['ArcFlashData',['../struct_arc_flash_data.html',1,'']]],
+  ['arcflashprotectiondata_19',['ArcFlashProtectionData',['../struct_arc_flash_protection_data.html',1,'']]],
+  ['arcflashtccpoint_20',['ArcFlashTCCPoint',['../struct_arc_flash_t_c_c_point.html',1,'']]],
+  ['area_21',['area',['../struct_parse_matpower_1_1_bus_data.html#a6a91b46f3cdd2c217ce15ba608994de2',1,'ParseMatpower::BusData']]],
+  ['atpfileeditorform_22',['ATPFileEditorForm',['../class_a_t_p_file_editor_form.html',1,'']]],
+  ['atppspbridge_23',['ATPPSPBridge',['../class_a_t_p_p_s_p_bridge.html',1,'']]],
+  ['atpsample_24',['ATPSample',['../struct_a_t_p_sample.html',1,'']]],
+  ['author_20and_20license_25',['Author and License',['../index.html#author',1,'']]]
 ];
